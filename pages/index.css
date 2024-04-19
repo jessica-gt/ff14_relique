@@ -234,8 +234,21 @@ tr img {
 	color: black;
 }
 
+/* tableau atma */
+.Atma td {
+	border: inset;
+	text-align: center;
+    padding: 3px;
+}
+
+.Atma {
+	display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
 /* image des armes reliques */
-.imgRelic50 tr img {
+.imgJob tr img {
 	width: auto;
 }
 
@@ -253,11 +266,11 @@ tr img {
 	border: inset;
 }
 
-#imgRelic img {
+.imgRelic img {
 	width: 50vw;
 }
 
-#imgRelic {
+.imgRelic {
 	height: 500px;
 	padding-bottom: 100px;
 }

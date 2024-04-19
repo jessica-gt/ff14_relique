@@ -18,8 +18,8 @@ function affichage(x,y){
 	};	
 };
 
-function arme(x){
-	document.getElementById("imgRelic").innerHTML='<img src="../image/image_reliques/'+x+'/50(1).png">';
+function arme(x,y,z){
+	document.getElementById("imgRelic"+z).innerHTML='<img src="../image/image_reliques/'+x+'/'+y+'('+z+').png">';
 };
 
 function precedent(nbPage){
