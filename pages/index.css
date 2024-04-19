@@ -234,7 +234,7 @@ tr img {
 	color: black;
 }
 
-/* tableau atma */
+/* tableau atma et autre lumières */
 .Atma td {
 	border: inset;
 	text-align: center;
@@ -245,6 +245,11 @@ tr img {
 	display: flex;
     justify-content: center;
     margin-bottom: 15px;
+}
+
+.Atma .vide {
+	border: none;
+	width: 5vw;
 }
 
 /* image des armes reliques */
