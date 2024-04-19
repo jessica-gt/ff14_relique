@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FFXIV reliques</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<script type="text/javascript" src="index.js"></script>
+		<script src="https://lds-img.finalfantasyxiv.com/pc/global/js/eorzeadb/loader.js?v3"></script>
+	</head>
+	<body id="container">
+		<div class="baniere">
+			<div class="image2">
+			</div>
+			<div class="menu" id="menu2">
+				<ul>
+					<li><a href="../ff14.html">accueil</a></li>
+					<li><a href=""><p><img src="../image/signs.png" width="30%"></p><p>arme relique 50</p></a></li>
+					<li><a href="reliques60.html">arme relique 60</a></li>
+					<li><a href="reliques70.html">arme relique 70</a></li>
+					<li><a href="reliques80.html">arme relique 80</a></li>
+					<li><a href="reliques90.html">arme relique 90</a></li>
+				</ul>
+			</div>
+			<div class="image2">
+			</div>
+		</div>
+		<div class="accueil">
+			<h1>Saga des armes du Zodiaque</h1>
+			<p>Tableau récapitulatif des étapes de l'arme relique :</p>
+			<p>(Cliquez sur une étape pour l'afficher)</p>
+			<table class="etapes_relique">
+				<tr>
+					<td>Étapes</td>
+					<td><button id="bouton1" onclick="affichage(1,8)">1-arme Antique</button></td>
+					<td><button id="bouton2" onclick="affichage(2,8)">2-arme Zénith</button></td>
+					<td><button id="bouton3" onclick="affichage(3,8)">3-arme Atma</button></td>
+					<td><button id="bouton4" onclick="affichage(4,8)">4-arme Animus</button></td>
+					<td><button id="bouton5" onclick="affichage(5,8)">5-arme Novus</button></td>
+					<td><button id="bouton6" onclick="affichage(6,8)">6-arme Nexus</button></td>
+					<td><button id="bouton7" onclick="affichage(7,8)">7-arme du Zodiaque</button></td>
+					<td><button id="bouton8" onclick="affichage(8,8)">8-arme du Zodiaque Zeta</button></td>
+				</tr>
+				<tr>
+					<td>Mémoquartz poétique nécessaire</td>
+					<td>15</td>
+					<td>60</td>
+					<td>0</td>
+					<td>900</td>
+					<td>1 200</td>
+					<td>0</td>
+					<td>800</td>
+					<td>600</td>
+				</tr>
+				<tr>
+					<td>Sceaux de Grande Compagnie nécessaire</td>
+					<td>0</td>
+					<td>0</td>
+					<td>0</td>
+					<td>0</td>
+					<td>0</td>
+					<td>0</td>
+					<td>80 000</td>
+					<td>0</td>
+				</tr>
+				<tr>
+					<td>Gils nécessaire</td>
+					<td>≈ 20 000</td>
+					<td>0</td>
+					<td>0</td>
+					<td>0</td>
+					<td>0</td>
+					<td>0</td>
+					<td>400 000</td>
+					<td>0</td>
+				</tr>
+			</table>
+			<p>L'arme relique 50 vous demandera un total de 3 575 Mémoquartz Poétique, 80 000 Sceaux de Grande Compagnie et environ 420 000 Gils. (Le prix des nombreux TP n'est pas pris en compte)</p>
+			<div class="line"></div>
+			<div id="etape1" style="display: none;">
+				<h1>Etape 1 : Arme Antique</h1>
+				<div class="lieux">
+					<p>PNJ: <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/c385edb82f2/" class="eorzeadb_link" target="_blank">Gerolt</a></p>
+					<p>Objets necéssaire: 1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/0944b5bc88e/" class="eorzeadb_link" target="_blank">Huile de trempe de Radz-at-Han</a></p>
+				</div>
+				<div class="description">
+					<p>Parler à Gerolt qui vous donnera une quête afin d'obtenir l'arme de base.</p>
+					<p>Cette quête vous demandera d'aller chercher l'arme cassé dans un lieu précis puis de la restaurer en donnant à Gerolt une arme sertie de matérias précisé dans la quête (l'arme est craftable ou achetable à l'HV, les matérias sont achetable à l'HV).</p>
+					<p>Vous devrez ensuite faire le défi 50 "<a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/duty/decf353d4e7/" class="eorzeadb_link" target="_blank">La chimère dhorme du Coerthas</a>" avec le job de l'arme recherché (le défis peut être fait en désynchro).</p>
+					<p>Gerolt vous dira alors d'aller voir Rowena à Mor Dhona qui vous demandera de faire le donjon 50 "<a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/duty/ae8a92122ec/" class="eorzeadb_link" target="_blank">Le Château d'Amdapor</a>" (toujours possible en désynchro).</p>
+					<p>Retourner voir Gerolt qui vous demandera de tuer des monstres en étant équipé de l'arme inachevée, puis de faire le défi 50 "<a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/duty/c87fbc421a0/" class="eorzeadb_link" target="_blank">L'hydre d'Halatali</a>" toujours équipé de l'arme et "<a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/duty/2640986aff3/" class="eorzeadb_link" target="_blank">Le Cratère des tisons (brutal)</a>", "<a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/duty/b74b4328a17/" class="eorzeadb_link" target="_blank">Hurlœil (brutal)</a>", "<a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/duty/349d6ca4465/" class="eorzeadb_link" target="_blank">Le Nombril (brutal)</a>".</p>
+					<p>Il vous sera ensuite demander une <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/0944b5bc88e/" class="eorzeadb_link" target="_blank">Huile de trempe de Radz-at-Han</a> (achetable pour 15 mémoquartz poétique) (ATTENTION: cet objet est unique, vous ne pouvais pas en avoir plusieurs si vous faite plusieurs armes 50).</p>
+				</div>
+				<div class="imgRelic50">
+					<table>
+						<tr>
+							<td>
+								<button type="button" onclick="arme('paladin')"><img src="../image/job_icons/01_TANK/Job/Paladin.png"></button>
+								<button type="button" onclick="arme('guerrier')"><img src="../image/job_icons/01_TANK/Job/Warrior.png"></button>
+								<button type="button" onclick="arme('mage_blanc')"><img src="../image/job_icons/02_HEALER/Job/WhiteMage.png"></button>
+								<button type="button" onclick="arme('érudit')"><img src="../image/job_icons/02_HEALER/Job/Scholar.png"></button>
+								<button type="button" onclick="arme('moine')"><img src="../image/job_icons/03_DPS/Job/Monk.png"></button>
+								<button type="button" onclick="arme('dragon')"><img src="../image/job_icons/03_DPS/Job/Dragoon.png"></button>
+								<button type="button" onclick="arme('ninja')"><img src="../image/job_icons/03_DPS/Job/Ninja.png"></button>
+								<button type="button" onclick="arme('barde')"><img src="../image/job_icons/03_DPS/Job/Bard.png"></button>
+								<button type="button" onclick="arme('mage_noir')"><img src="../image/job_icons/03_DPS/Job/BlackMage.png"></button>
+								<button type="button" onclick="arme('invocateur')"><img src="../image/job_icons/03_DPS/Job/Summoner.png"></button>
+							</td>
+						</tr>
+						<tr>
+							<td id="imgRelic"><img src="../image/image_reliques/paladin/50(1).png"></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div id="etape2" style="display: none;">
+				<h1>Etape 2 : Arme Zénith</h1>
+			</div>
+			<div id="etape3" style="display: none;">
+				<h1>Etape 3 : Arme Atma</h1>
+			</div>
+			<div id="etape4" style="display: none;">
+				<h1>Etape 4 : Arme Animus</h1>
+			</div>
+			<div id="etape5" style="display: none;">
+				<h1>Etape 5 : Arme Novus</h1>
+			</div>
+			<div id="etape6" style="display: none;">
+				<h1>Etape 6 : Arme Nexus</h1>
+			</div>
+			<div id="etape7" style="display: none;">
+				<h1>Etape 7 : Arme du Zodiaque</h1>
+			</div>
+			<div id="etape8" style="display: none;">
+				<h1>Etape finale : Arme du Zodiaque Zêta</h1>
+			</div>
+		</div>
+		<footer>
+			<div class="baniere2">
+				<div class="precedent">
+					<button type="button" onclick="precedent(8)" disabled id="btnPrecedent"><img src="../image/target_back.png"></button>
+				</div>
+				<div class="haut">
+					<button type="button"><a href="#top"><img src="../image/jump.png"></a></button>
+				</div>
+				<div class="suivant">
+					<button type="button" onclick="suivant(8)" disabled id="btnSuivant"><img src="../image/target_forward.png"></button>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

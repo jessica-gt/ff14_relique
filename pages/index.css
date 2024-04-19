@@ -1,0 +1,289 @@
+/* mise en place du body */
+body {
+	margin:0 auto;
+	background:#FEEDD2;
+	display:flex;
+	flex-direction: column;
+	font-size: 18px;
+}
+
+.container {
+	width:60%;
+}
+
+/* mise en place de la baniere */
+.baniere {
+	min-width: 100%;
+	height: 120px;
+	display: flex;
+}
+
+/* image baniere des différents onglets */
+.image1 {
+	background: center / cover no-repeat url('../image/baniere_endwalker.jpg');
+	width: 500px;
+}
+
+.image2 {
+	background: center / cover no-repeat url('../image/baniere_arr.jpg');
+	width: 500px;
+}
+
+.image3 {
+	background: center / cover no-repeat url('../image/baniere_heavensward.jpg');
+	width: 500px;
+}
+
+.image4 {
+	background: center / cover no-repeat url('../image/baniere_stormblood.jpg');
+	width: 500px;
+}
+
+.image5 {
+	background: center / cover no-repeat url('../image/baniere_shadowbringers.jpg');
+	width: 500px;
+}
+
+.image6 {
+	background: center / cover no-repeat url('../image/baniere_endwalker2.jpg');
+	width: 500px;
+}
+
+.menu p {
+	padding: 0;
+	margin: 1%;
+}
+
+/* menu accueil */
+#menu1 {
+	background-color: rgb(28, 32, 61);
+}
+
+#menu1 a {
+	color: rgb(255, 216, 160);
+}
+
+#menu1 a:hover {
+	color: rgb(168, 131, 122);
+}
+
+/* menu arme 50 */
+#menu2 a {
+	color: white;
+}
+
+#menu2 {
+	background-color: rgb(2, 6, 17);
+}
+
+#menu2 a:hover {
+	color: rgb(168, 211, 191);
+}
+
+/* menu arme 60 */
+#menu3 a {
+	color: rgb(167, 111, 88);
+}
+
+#menu3 {
+	background-color: rgb(0, 25, 47);
+}
+
+#menu3 a:hover {
+	color: rgb(193, 87, 74);
+}
+
+/* menu arme 70 */
+#menu4 a {
+	color: rgb(166, 155, 123);
+}
+
+#menu4 {
+	background-color: rgb(57, 58, 63);
+}
+
+#menu4 a:hover {
+	color: rgb(241, 227, 218);
+}
+
+/* menu arme 80 */
+#menu5 a {
+	color: rgb(131, 172, 228);
+}
+
+#menu5 {
+	background-color: rgb(12, 10, 15);
+}
+
+#menu5 a:hover {
+	color: rgb(148, 92, 241);
+}
+
+/* menu arme 90 */
+#menu6 a {
+	color: rgb(214, 189, 184);
+}
+
+#menu6 {
+	background-color: rgb(23, 22, 40);
+}
+
+#menu6 a:hover {
+	color: rgb(126, 244, 254);
+}
+
+/* menu général */
+.menu {
+	width: 77%;
+}
+
+.menu ul {
+	display:flex;
+	justify-content: space-around;
+	list-style: none;
+	padding:0;
+}
+
+.menu li {
+	height:100px;
+	width:100px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu a {
+	text-align: center;
+	text-decoration:none;
+}
+
+.menu a:hover {
+	text-decoration: underline;	
+}
+
+/* mise en place de la page d'acceuil */
+.accueil {
+	text-align: center;
+    width: 100%;
+}
+
+p {
+	padding: 1%;
+}
+
+/* personalisation de tableau d'acceuil */
+.tableau {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 3%;
+}
+
+tr img {
+	width: 3vw;
+}
+
+/* tableau des étape des armes reliques */
+
+.etapes_relique {
+	width: 100%;
+}
+
+.etapes_relique td {
+	border: inset;
+}
+
+.etapes_relique td button {
+	border: none;
+	background: none;
+}
+
+.etapes_relique td button:hover {
+	color: red;
+}
+
+/* ligne sous le tableau des arme relique */
+.line {
+	border: dashed 1px;
+	width: 80vw;
+    display: inline-block;
+}
+
+/* localisation et objets */
+.lieux {
+	display: flex;
+    justify-content: space-between;
+}
+
+.lieux p {
+	border: double;
+}
+
+.lieux a {
+	text-decoration: underline;
+	color: black;
+	font-weight: bold;
+}
+
+/* description des etapes */
+.description {
+	text-align: left;
+}
+
+.description a {
+	text-decoration: underline;
+	color: black;
+}
+
+/* image des armes reliques */
+.imgRelic50 tr img {
+	width: auto;
+}
+
+.imgRelic50 table {
+	width: 100%;
+}
+
+.imgRelic50 button {
+	border: outset;
+	border-radius: 13px;
+	background-color: moccasin;
+}
+
+.imgRelic50 button:active {
+	border: inset;
+}
+
+#imgRelic img {
+	width: 50vw;
+}
+
+#imgRelic {
+	height: 500px;
+	padding-bottom: 60px;
+}
+
+/* footer */
+.baniere2 {
+	display: flex;
+	justify-content: space-around;
+	width: 100vw;
+    position: fixed;
+    bottom: 0px;
+    background-color: rgb(28, 32, 61);
+    padding: 5px;
+}
+
+.baniere2 button {
+	border: outset;
+	border-radius: 13px;
+	background-color: moccasin;
+}
+
+.baniere2 button:active {
+	border: inset;
+}
+
+.baniere2 button:disabled {
+	border: inset;
+    background-color: darkgray;
+}
