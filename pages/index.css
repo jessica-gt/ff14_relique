@@ -297,9 +297,16 @@ tr img {
 
 /* tableau atma et autre lumières */
 .Atma td {
-	border: inset;
-	text-align: center;
+	border: outset rgb(168, 211, 191);
+    text-align: center;
     padding: 3px;
+    background: rgb(168, 211, 191);
+    color: rgb(2, 6, 17);
+    border-radius: 50px;
+}
+
+.Atma td a {
+	color: rgb(2, 6, 17);
 }
 
 .Atma {
@@ -311,6 +318,13 @@ tr img {
 .Atma .vide {
 	border: none;
 	width: 5vw;
+	background-color: #FEEDD2;
+}
+
+.ligne_titre td{
+	border: inset rgb(168, 211, 191);
+	background: rgb(2, 6, 17);
+    color: rgb(168, 211, 191);
 }
 
 /* image des armes reliques */
