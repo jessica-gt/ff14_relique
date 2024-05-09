@@ -26,6 +26,156 @@
 		</div>
 		<div class="accueil">
 			<h1>Saga des armes Anima</h1>
+			<p>Tableau récapitulatif des étapes de l'arme relique :</p>
+			<p>(Cliquez sur une étape pour l'afficher)</p>
+			<table class="etapes_relique">
+				<tr class="ligne_titre_60">
+					<td>Étapes</td>
+					<td><button id="bouton1" class="etapes_relique_60" onclick="affichage(1,8)">1-arme Animé</button></td>
+					<td><button id="bouton2" class="etapes_relique_60" onclick="affichage(2,8)">2-arme Éveillé</button></td>
+					<td><button id="bouton3" class="etapes_relique_60" onclick="affichage(3,8)">3-arme Anima</button></td>
+					<td><button id="bouton4" class="etapes_relique_60" onclick="affichage(4,8)">4-arme Hyperconductrice</button></td>
+					<td><button id="bouton5" class="etapes_relique_60" onclick="affichage(5,8)">5-arme Épanouie</button></td>
+					<td><button id="bouton6" class="etapes_relique_60" onclick="affichage(6,8)">6-arme Vivifié</button></td>
+					<td><button id="bouton7" class="etapes_relique_60" onclick="affichage(7,8)">7-arme Parachevé</button></td>
+					<td><button id="bouton8" class="etapes_relique_60" onclick="affichage(8,8)">8-arme Lux</button></td>
+				</tr>
+				<tr class="memo_relique_60">
+					<td>Mémoquartz poétique nécessaire</td>
+					<td>0</td>
+					<td>0</td>
+					<td>6 000</td>
+					<td>1 750</td>
+					<td>0</td>
+					<td>0</td>
+					<td>0</td>
+					<td>0</td>
+				</tr>
+				<tr class="memo_relique_60">
+					<td>Sceaux de Grande Compagnie nécessaire</td>
+					<td>0</td>
+					<td>0</td>
+					<td>80 000</td>
+					<td>0</td>
+					<td>0</td>
+					<td>0</td>
+					<td>60 000</td>
+					<td>0</td>
+				</tr>
+				<tr class="memo_relique_60">
+					<td>Gils nécessaire</td>
+					<td>0</td>
+					<td>0</td>
+					<td>0</td>
+					<td>0</td>
+					<td>0</td>
+					<td>0</td>
+					<td>0</td>
+					<td>0</td>
+				</tr>
+			</table>
+			<p>L'arme relique 60 vous demandera un total de 7 750 Mémoquartz Poétique et 140 000 Sceaux de Grande Compagnie. (Le prix des nombreux TP n'est pas pris en compte)</p>
+			<div class="line"></div>
+			<div class="quetes_60">
+			<p>Pour toutes les armes reliques 60 il vous faudra faire la suite de quêtes des armes Anima:</p>
+			<p class="quetes">(quête pour débloquer les armes reliques 60 à faire une seule fois) -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/fb5d98ff180/" class="eorzeadb_link" target="_blank">De l'esprit des armes</a></p>
+			<p class="quetes"><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/0136a6df60a/" class="eorzeadb_link" target="_blank">Les cristaux d'Ardashir</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/3a19d47a205/" class="eorzeadb_link" target="_blank">Les marches de l'éveil</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/a37d18ed018/" class="eorzeadb_link" target="_blank">Anima nova</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/bf6394ecf52/" class="eorzeadb_link" target="_blank">Parole à l'esprit</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/1ef99ba9eeb/" class="eorzeadb_link" target="_blank">Épanouissement accéléré</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/855114f5906/" class="eorzeadb_link" target="_blank">Souvenirs vivifiants</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/496ec3951a9/" class="eorzeadb_link" target="_blank">Le dernier transfert</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/9da6270b969/" class="eorzeadb_link" target="_blank">Double complicité</a></p>
+			</div>
+			<div class="line"></div>
+			<div id="etape1" style="display: none;">
+				<h1>Etape 1 : Arme Animé</h1>
+				<div class="lieux">
+					<p>PNJ: <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/08cc9e30841/" class="eorzeadb_link" target="_blank">Ardashir</a>, <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/5f16dc7f440/" class="eorzeadb_link" target="_blank">Rowena</a>, <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/shop/0e148938969/" class="eorzeadb_link" target="_blank">Syndony</a></p>
+					<p>Objets necéssaire: 1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/4e97e9b51ff/" class="eorzeadb_link" target="_blank">Cristal astral</a> et 1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/5dfc636701d/" class="eorzeadb_link" target="_blank">Cristal ombral</a></p>
+				</div>
+				<div class="description">
+					<p>Allez voir <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/08cc9e30841/" class="eorzeadb_link" target="_blank">Ardashir</a> à Azys Lia qui vous demandera d'aller voir <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/5f16dc7f440/" class="eorzeadb_link" target="_blank">Rowena</a> à Mor Dhona.</p>
+					<p>Elle vous enverra vers <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/shop/0e148938969/" class="eorzeadb_link" target="_blank">Syndony</a> qui vous permettra d'échanger des cristaux élémentaire contre des <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/4e97e9b51ff/" class="eorzeadb_link" target="_blank">Cristaux astral</a> ou des <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/5dfc636701d/" class="eorzeadb_link" target="_blank">Cristaux ombral</a></p>
+					<p>NB: Vous pouvez aussi échanger votre arme relique 50 Zeta contre les cristaux astral et ombral mais c'est fortement déconseillé.</p>
+					<p>Vous devrez faire n'importe quel aléas dans différentes zones d'heavensward pour obtenir les différents cristaux élémentaires.</p>
+					<table class="Atma">
+						<tr class="ligne_titre_60">
+							<td>Type de cristal</td>
+							<td>Lieux des aléas</td>
+						</tr>
+						<tr class="memo_relique_60">
+							<td><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/a03d6a2e78a/" class="eorzeadb_link" target="_blank">Cristal lumineux de feu</a></td>
+							<td>Azys Lia</td>
+						</tr>
+						<tr class="memo_relique_60">
+							<td><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/17a17459c3f/" class="eorzeadb_link" target="_blank">Cristal lumineux de vent</a></td>
+							<td>Écume des cieux d'Abalathia</td>
+						</tr>
+						<tr class="memo_relique_60">
+							<td><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/3641624c6c5/" class="eorzeadb_link" target="_blank">Cristal lumineux de foudre</a></td>
+							<td>Écume des cieux de Dravania</td>
+						</tr>
+						<tr class="memo_relique_60">
+							<td><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/90bb4502a83/" class="eorzeadb_link" target="_blank">Cristal lumineux de glace</a></td>
+							<td>Hautes terres du Coerthas Occidental</td>
+						</tr>
+						<tr class="memo_relique_60">
+							<td><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/92d01f792f6/" class="eorzeadb_link" target="_blank">Cristal lumineux de terre</a></td>
+							<td>Avant-pays dravanien</td>
+						</tr>
+						<tr class="memo_relique_60">
+							<td><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/c4502866d2f/" class="eorzeadb_link" target="_blank">Cristal lumineux d'eau</a></td>
+							<td>Arrière-pays dravanien</td>
+						</tr>
+					</table>
+				</div>
+				<div class="imgRelic50">
+					<table>
+						<tr>
+							<td class="imgJob">
+								<button type="button" onclick="arme('paladin',60,1)"><img src="../image/job_icons/01_TANK/Job/Paladin.png"></button>
+								<button type="button" onclick="arme('guerrier',60,1)"><img src="../image/job_icons/01_TANK/Job/Warrior.png"></button>
+								<button type="button" onclick="arme('chevalier_noir',60,1)"><img src="../image/job_icons/01_TANK/Job/DarkKnight.png"></button>
+								<button type="button" onclick="arme('mage_blanc',60,1)"><img src="../image/job_icons/02_HEALER/Job/WhiteMage.png"></button>
+								<button type="button" onclick="arme('érudit',60,1)"><img src="../image/job_icons/02_HEALER/Job/Scholar.png"></button>
+								<button type="button" onclick="arme('astromancien',60,1)"><img src="../image/job_icons/02_HEALER/Job/Astrologian.png"></button>
+								<button type="button" onclick="arme('moine',60,1)"><img src="../image/job_icons/03_DPS/Job/Monk.png"></button>
+								<button type="button" onclick="arme('dragon',60,1)"><img src="../image/job_icons/03_DPS/Job/Dragoon.png"></button>
+								<button type="button" onclick="arme('ninja',60,1)"><img src="../image/job_icons/03_DPS/Job/Ninja.png"></button>
+								<button type="button" onclick="arme('barde',60,1)"><img src="../image/job_icons/03_DPS/Job/Bard.png"></button>
+								<button type="button" onclick="arme('machiniste',60,1)"><img src="../image/job_icons/03_DPS/Job/Machinist.png"></button>
+								<button type="button" onclick="arme('mage_noir',60,1)"><img src="../image/job_icons/03_DPS/Job/BlackMage.png"></button>
+								<button type="button" onclick="arme('invocateur',60,1)"><img src="../image/job_icons/03_DPS/Job/Summoner.png"></button>
+							</td>
+						</tr>
+						<tr>
+							<td id="imgRelic1" class="imgRelic"><img src="../image/image_reliques/paladin/60(1).png"></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div id="etape2" style="display: none;">
+			</div>
+			<div id="etape3" style="display: none;">
+			</div>
+			<div id="etape4" style="display: none;">
+			</div>
+			<div id="etape5" style="display: none;">
+			</div>
+			<div id="etape6" style="display: none;">
+			</div>
+			<div id="etape7" style="display: none;">
+			</div>
+			<div id="etape8" style="display: none;">
+			</div>
 		</div>
+		<footer>
+			<div class="baniere2">
+				<div class="precedent">
+					<button type="button" onclick="precedent(8)" disabled id="btnPrecedent"><img src="../image/target_back.png"></button>
+				</div>
+				<div class="haut">
+					<a href="#top"><button type="button"><img src="../image/jump.png"></button></a>
+				</div>
+				<div class="suivant">
+					<button type="button" onclick="suivant(8)" disabled id="btnSuivant"><img src="../image/target_forward.png"></button>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>

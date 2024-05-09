@@ -29,7 +29,7 @@
 			<p>Tableau récapitulatif des étapes de l'arme relique :</p>
 			<p>(Cliquez sur une étape pour l'afficher)</p>
 			<table class="etapes_relique">
-				<tr>
+				<tr class="ligne_titre_50">
 					<td>Étapes</td>
 					<td><button id="bouton1" class="etapes_relique_50" onclick="affichage(1,8)">1-arme Antique</button></td>
 					<td><button id="bouton2" class="etapes_relique_50" onclick="affichage(2,8)">2-arme Zénith</button></td>
@@ -40,7 +40,7 @@
 					<td><button id="bouton7" class="etapes_relique_50" onclick="affichage(7,8)">7-arme du Zodiaque</button></td>
 					<td><button id="bouton8" class="etapes_relique_50" onclick="affichage(8,8)">8-arme du Zodiaque Zeta</button></td>
 				</tr>
-				<tr>
+				<tr class="memo_relique_50">
 					<td>Mémoquartz poétique nécessaire</td>
 					<td>15</td>
 					<td>60</td>
@@ -51,7 +51,7 @@
 					<td>800</td>
 					<td>600</td>
 				</tr>
-				<tr>
+				<tr class="memo_relique_50">
 					<td>Sceaux de Grande Compagnie nécessaire</td>
 					<td>0</td>
 					<td>0</td>
@@ -62,7 +62,7 @@
 					<td>80 000</td>
 					<td>0</td>
 				</tr>
-				<tr>
+				<tr class="memo_relique_50">
 					<td>Gils nécessaire</td>
 					<td>≈ 20 000</td>
 					<td>0</td>
@@ -78,8 +78,8 @@
 			<div class="line"></div>
 			<div class="quetes_50">
 			<p>Si c'est votre 1ère arme relique 50 il vous faudra faire la suite de quêtes des armes du zodiaque:</p>
-			<p class="quetes"><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/7222ccaeef2/" class="eorzeadb_link" target="_blank">L'âme des armes</a>><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/ae51238f704/" class="eorzeadb_link" target="_blank">Les Chroniques du zodiaque</a>><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/ae1ffb8bee4/" class="eorzeadb_link" target="_blank">Radiance sphérique</a>><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/be1dc9c9a63/" class="eorzeadb_link" target="_blank">Brillance stellaire</a>><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/1e5ad76ac84/" class="eorzeadb_link" target="_blank">L'harmonisation des âmes</a>><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/229f8633138/" class="eorzeadb_link" target="_blank">Une idée de génie</a>><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/9e4b93903f8/" class="eorzeadb_link" target="_blank">Dernier fragment d'un long voyage</a>><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/2460c3e21c2/" class="eorzeadb_link" target="_blank">L'heure du réveil</a></p>
-			<p class="quetes">(quêtes bonus de fin de saga)<a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/edcdb18b80f/" class="eorzeadb_link" target="_blank">Un titre pour deux</a>><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/568f19e33e3/" class="eorzeadb_link" target="_blank">La goutte d'eau qui fait déborder la bouilloire</a></p>
+			<p class="quetes"><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/7222ccaeef2/" class="eorzeadb_link" target="_blank">L'âme des armes</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/ae51238f704/" class="eorzeadb_link" target="_blank">Les Chroniques du zodiaque</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/ae1ffb8bee4/" class="eorzeadb_link" target="_blank">Radiance sphérique</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/be1dc9c9a63/" class="eorzeadb_link" target="_blank">Brillance stellaire</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/1e5ad76ac84/" class="eorzeadb_link" target="_blank">L'harmonisation des âmes</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/229f8633138/" class="eorzeadb_link" target="_blank">Une idée de génie</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/9e4b93903f8/" class="eorzeadb_link" target="_blank">Dernier fragment d'un long voyage</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/2460c3e21c2/" class="eorzeadb_link" target="_blank">L'heure du réveil</a></p>
+			<p class="quetes">(quêtes bonus de fin de saga) <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/edcdb18b80f/" class="eorzeadb_link" target="_blank">Un titre pour deux</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/568f19e33e3/" class="eorzeadb_link" target="_blank">La goutte d'eau qui fait déborder la bouilloire</a></p>
 			</div>
 			<div class="line"></div>
 			<div id="etape1" style="display: none;">
@@ -158,55 +158,55 @@
 				<div class="description">
 					<p>Vous devrez faire des aléas, en étant équipé d'une arme zénith, dans différentes zones de Realm Reborn afin d'obtenir les 12 atmas du zodiaque (1 de chaque) puis parler à <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/cd1713e6dc7/" class="eorzeadb_link" target="_blank">Jalzahn</a> en face de Gerolt pour renforcer votre arme zénith.</p>
 					<table class="Atma">
-						<tr class="ligne_titre">
+						<tr class="ligne_titre_50">
 							<td>Atma</td>
 							<td>Lieux des aléas</td>
 						</tr>
-						<tr>
+						<tr class="memo_relique_50">
 							<td><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/8f61da26e0d/" class="eorzeadb_link" target="_blank">Âtma du bélier</a></td>
 							<td>Noscea Centrale</td>
 						</tr>
-						<tr>
+						<tr class="memo_relique_50">
 							<td><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/a9bb4c0dca8/" class="eorzeadb_link" target="_blank">Âtma du cancer</a></td>
 							<td>Noscea Occidentale</td>
 						</tr>
-						<tr>
+						<tr class="memo_relique_50">
 							<td><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/df079ba6121/" class="eorzeadb_link" target="_blank">Âtma des poissons</a></td>
 							<td>Basse-Noscea</td>
 						</tr>
-						<tr>
+						<tr class="memo_relique_50">
 							<td><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/77947999569/" class="eorzeadb_link" target="_blank">Âtma du verseau</a></td>
 							<td>Haute-Noscea</td>
 						</tr>
-						<tr>
+						<tr class="memo_relique_50">
 							<td><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/3f75fcf1b40/" class="eorzeadb_link" target="_blank">Âtma du lion</a></td>
 							<td>Noscea Extérieure</td>
 						</tr>
-						<tr>
+						<tr class="memo_relique_50">
 							<td><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/16cbb02efd1/" class="eorzeadb_link" target="_blank">Âtma de la vierge</a></td>
 							<td>Forêt Centrale</td>
 						</tr>
-						<tr>
+						<tr class="memo_relique_50">
 							<td><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/c245dab1cde/" class="eorzeadb_link" target="_blank">Âtma du capricorne</a></td>
 							<td>Forêt de l'Est</td>
 						</tr>
-						<tr>
+						<tr class="memo_relique_50">
 							<td><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/c2e76099a41/" class="eorzeadb_link" target="_blank">Âtma du sagittaire</a></td>
 							<td>Forêt du Nord</td>
 						</tr>
-						<tr>
+						<tr class="memo_relique_50">
 							<td><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/a4ae81c3d6e/" class="eorzeadb_link" target="_blank">Âtma des gémeaux</a></td>
 							<td>Thanalan Occidental</td>
 						</tr>
-						<tr>
+						<tr class="memo_relique_50">
 							<td><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/d847b8515cd/" class="eorzeadb_link" target="_blank">Âtma de la balance</a></td>
 							<td>Thanalan Central</td>
 						</tr>
-						<tr>
+						<tr class="memo_relique_50">
 							<td><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/20245dabeda/" class="eorzeadb_link" target="_blank">Âtma du taureau</a></td>
 							<td>Thanalan Oriental</td>
 						</tr>
-						<tr>
+						<tr class="memo_relique_50">
 							<td><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/73c181b1f9a/" class="eorzeadb_link" target="_blank">Âtma du scorpion</a></td>
 							<td>Thanalan Méridional</td>
 						</tr>
@@ -313,76 +313,76 @@
 					<p>NB: Le meilleur donjon à farmer serait <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/duty/f507633618c/" class="eorzeadb_link" target="_blank">Le Val d'Aurum</a> en désynchro car il est le plus rapide (Aucune porte à ouvrir ni objets à ramasser, environ 2min pour finir un donjon). Il faudrait le terminer 42 fois s'il n'y a pas de bonus ou 26 fois si vous êtes chanceux.</p>
 					<p>NB 2 : la <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/9bbaec034d1/" class="eorzeadb_link" target="_blank">Lunette du zodiaque</a> vous donnera le nombre d'esprits présent dans l'arme via des phrases, il vous faudra atteindre l'état resplandissant. A la fin d'un donjon, un petit message s'affichera pour vous dire combien d'esprits vous avez reçu via une phrase décrivant l'éclat de votre arme.</p>
 					<table class="Atma">
-						<tr class="ligne_titre">
+						<tr class="ligne_titre_50">
 							<td>Description de la lunette</td>
 							<td>Nb d'esprits</td>
 							<td class="vide"></td>
 							<td>Phrase de fin de donjon</td>
 							<td>Nb d'esprit obtenu</td>
 						</tr>
-						<tr>
+						<tr class="memo_relique_50">
 							<td>Auncun éclat</td>
 							<td>0 - 199</td>
 							<td class="vide"></td>
 							<td>quasiment imperceptile</td>
 							<td>8</td>
 						</tr>
-						<tr>
+						<tr class="memo_relique_50">
 							<td>Quasiment imperceptible</td>
 							<td>200 - 399</td>
 							<td class="vide"></td>
 							<td>Emet un éclat très faible</td>
 							<td>16</td>
 						</tr>
-						<tr>
+						<tr class="memo_relique_50">
 							<td>Très faible</td>
 							<td>400 - 599</td>
 							<td class="vide"></td>
 							<td>Emet un faible éclat</td>
 							<td>32</td>
 						</tr>
-						<tr>
+						<tr class="memo_relique_50">
 							<td>Faible</td>
 							<td>600 - 799</td>
 							<td class="vide"></td>
 							<td>Emet un vif éclat</td>
 							<td>48</td>
 						</tr>
-						<tr>
+						<tr class="memo_relique_50">
 							<td>Certain</td>
 							<td>800 - 999</td>
 							<td class="vide"></td>
 							<td>Emet un éclat très vif</td>
 							<td>96</td>
 						</tr>
-						<tr>
+						<tr class="memo_relique_50">
 							<td>Vif</td>
 							<td>1 000 - 1 199</td>
 							<td class="vide"></td>
 							<td>Emet un éclat éblouissant</td>
 							<td>128</td>
 						</tr>
-						<tr>
+						<tr class="memo_relique_50">
 							<td>Très vif</td>
 							<td>1 200 - 1 399</td>
 							<td class="vide"></td>
 						</tr>
-						<tr>
+						<tr class="memo_relique_50">
 							<td>Extrêmement vif</td>
 							<td>1 400 - 1 599</td>
 							<td class="vide"></td>
 						</tr>
-						<tr>
+						<tr class="memo_relique_50">
 							<td>Éblouissant</td>
 							<td>1 600 - 1 799</td>
 							<td class="vide"></td>
 						</tr>
-						<tr>
+						<tr class="memo_relique_50">
 							<td>Quasi aveuglant</td>
 							<td>1 800 - 1 999</td>
 							<td class="vide"></td>
 						</tr>
-						<tr>
+						<tr class="memo_relique_50">
 							<td>Resplendissant</td>
 							<td>2 000</td>
 							<td class="vide"></td>
@@ -422,47 +422,47 @@
 					<p>4 des objets necessaire coûtent 100 000 gils chacun et sont achetables auprès des PNJ suivant: <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/shop/8bb0e8cac46/" class="eorzeadb_link" target="_blank">Marchand</a>, <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/shop/b588203984d/" class="eorzeadb_link" target="_blank">Bazardeur</a>, <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/shop/59ffef0f53b/" class="eorzeadb_link" target="_blank">Quincaillière</a> et <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/shop/d95faa50ec5/" class="eorzeadb_link" target="_blank">Quincaillier</a>(chaqu'un d'entre eux vend 1 des 4 objets).</p>
 					<p>Il vous faudra ensuite fabriquer (ou acheter à l'HV pour environ 100 000 gils l'objet) 8 objets de quêtes en HQ. Pour les fabriquer, il sera necessaire d'avoir tous vos artisans et récolteurs au niveau 50 minimum (plus leurs niveaux seront élevés, plus la fabrication et la récolte sera simple) ainsi que les recettes experte 1 de tous les artisans échangeable à <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/shop/dc9a531e92d/" class="eorzeadb_link" target="_blank">Talan</a> contre un objet fabriqué en HQ.</p>
 					<table class="Atma">
-						<tr class="ligne_titre">
+						<tr class="ligne_titre_50">
 							<td>Nom de l'objet</td>
 							<td>Matériau de recyclage</td>
 							<td>Autres matériaux</td>
 						</tr>
-						<tr>
+						<tr class="memo_relique_50">
 							<td><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/91ea52b69e6/" class="eorzeadb_link" target="_blank">Parchemin parfait</a></td>
 							<td>1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/d175a7c3962/" class="eorzeadb_link" target="_blank">Vieux rouleau de vélin</a></td>
 							<td>2 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/5745b0b73fe/" class="eorzeadb_link" target="_blank">Pierre ponce</a>, 1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/5fb1533e66a/" class="eorzeadb_link" target="_blank">Huile de requin</a></td>
 						</tr>
-						<tr>
+						<tr class="memo_relique_50">
 							<td><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/23717de2e1b/" class="eorzeadb_link" target="_blank">Fixateur parfait</a></td>
 							<td>1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/2e27feee02a/" class="eorzeadb_link" target="_blank">Éther séché</a></td>
 							<td>1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/9aa9a7e215b/" class="eorzeadb_link" target="_blank">Sable d'électrum</a>, 1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/1c6863dd0d1/" class="eorzeadb_link" target="_blank">Pou d'éther</a></td>
 						</tr>
-						<tr>
+						<tr class="memo_relique_50">
 							<td><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/a7aa05f8fcd/" class="eorzeadb_link" target="_blank">Bûches parfaites</a></td>
 							<td>1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/bfa58f53870/" class="eorzeadb_link" target="_blank">Vieille hampe de lance</a></td>
 							<td>1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/db995256183/" class="eorzeadb_link" target="_blank">Cendres de grenado</a>, 2 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/7e9854de654/" class="eorzeadb_link" target="_blank">Rondin de cyprès</a></td>
 						</tr>
-						<tr>
+						<tr class="memo_relique_50">
 							<td><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/26c9a760241/" class="eorzeadb_link" target="_blank">Étoffe antique parfaite</a></td>
 							<td>1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/a9a0519d64e/" class="eorzeadb_link" target="_blank">Vieux tissu sale</a></td>
 							<td>1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/f725bcbf952/" class="eorzeadb_link" target="_blank">Eau effervescente</a>, 1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/053c0021a62/" class="eorzeadb_link" target="_blank">Fil de lin</a>, 2 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/5745b0b73fe/" class="eorzeadb_link" target="_blank">Pierre ponce</a></td>
 						</tr>
-						<tr>
+						<tr class="memo_relique_50">
 							<td><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/5c918f07731/" class="eorzeadb_link" target="_blank">Mortier parfait</a></td>
 							<td>1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/53b52d87892/" class="eorzeadb_link" target="_blank">Vieil élément de mortier</a></td>
 							<td>1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/25940e85cb9/" class="eorzeadb_link">Plaque d'argent belahdien</a>, 1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/7ed157640d2/" class="eorzeadb_link" target="_blank">Madrier d'acajou</a></td>
 						</tr>
-						<tr>
+						<tr class="memo_relique_50">
 							<td><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/258e18ee433/" class="eorzeadb_link" target="_blank">Pilon parfait</a></td>
 							<td>1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/cc2283d5a14/" class="eorzeadb_link" target="_blank">Vieille tête de pilon</a></td>
 							<td>2 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/7e9854de654/" class="eorzeadb_link" target="_blank">Rondin de cyprès</a>, 1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/5e936ccb91f/" class="eorzeadb_link" target="_blank">Cuir de peiste</a></td>
 						</tr>
-						<tr>
+						<tr class="memo_relique_50">
 							<td><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/936fac5bbb6/" class="eorzeadb_link" target="_blank">Bague du feu</a></td>
 							<td>1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/8ca05a09fa2/" class="eorzeadb_link" target="_blank">Vieil œil-de-feu</a></td>
 							<td>1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/25940e85cb9/" class="eorzeadb_link">Plaque d'argent belahdien</a>, 1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/25c4ca7304f/" class="eorzeadb_link" target="_blank">Pierre à aiguiser basilic</a></td>
 						</tr>
-						<tr>
+						<tr class="memo_relique_50">
 							<td><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/b1368b0e1ee/" class="eorzeadb_link" target="_blank">Tarte à l'anguille très spéciale</a></td>
 							<td>1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/a6b8dbd7790/" class="eorzeadb_link" target="_blank">Vin de cuisson artisanal</a></td>
 							<td>1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/9acb3e808e5/" class="eorzeadb_link" target="_blank">Ver de Nym</a>, 1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/c7f87d633ed/" class="eorzeadb_link" target="_blank">Pâte à tarte</a>, 1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/12450d1885f/" class="eorzeadb_link" target="_blank">Beurre</a>, 1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/87ed7d9431f/" class="eorzeadb_link" target="_blank">Poivre noir</a>, 1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/302dbc0f325/" class="eorzeadb_link">Girofle</a></td>
