@@ -44,10 +44,10 @@
 					<td>Mémoquartz poétique nécessaire</td>
 					<td>0</td>
 					<td>0</td>
-					<td>6 000</td>
+					<td>0</td>
 					<td>1 750</td>
-					<td>0</td>
-					<td>0</td>
+					<td>4 500</td>
+					<td>1 240</td>
 					<td>0</td>
 					<td>0</td>
 				</tr>
@@ -123,6 +123,7 @@
 							<td>Arrière-pays dravanien</td>
 						</tr>
 					</table>
+					<p>Une fois les 2 cristaux en votre possesion, retourner voir <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/08cc9e30841/" class="eorzeadb_link" target="_blank">Ardashir</a> pour validé la quête.</p>
 				</div>
 				<div class="imgRelic50">
 					<table>
@@ -150,16 +151,243 @@
 				</div>
 			</div>
 			<div id="etape2" style="display: none;">
+				<h1>Etape 2 : Arme Éveillé</h1>
+				<div class="lieux">
+					<p>PNJ: <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/08cc9e30841/" class="eorzeadb_link" target="_blank">Ardashir</a></p>
+					<p>Objets necéssaire: Aucun</p>
+				</div>
+				<div class="description">
+					<p><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/08cc9e30841/" class="eorzeadb_link" target="_blank">Ardashir</a> vous demandera de faire 10 donjons en étant équipé de votre arme relique 60: <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/duty/6f1778eb631/" class="eorzeadb_link" target="_blank">Manteneige</a>, <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/duty/df38ed5c808/" class="eorzeadb_link" target="_blank">Sastasha (brutal)</a>, <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/duty/6b35d4a1179/" class="eorzeadb_link" target="_blank">Le Temple enseveli de Qarn (brutal)</a>, <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/duty/5e75d2059af/" class="eorzeadb_link" target="_blank">Le Gardien du lac</a>, <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/duty/7c11b0ba080/" class="eorzeadb_link" target="_blank">Le Palais du Vagabond (brutal)</a>, <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/duty/a4288ecf826/" class="eorzeadb_link" target="_blank">Le Château d'Amdapor (brutal)</a>, <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/duty/df5ab8bfd61/" class="eorzeadb_link">Le Vigile du Crépuscule</a>, <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/duty/eed0add7a62/" class="eorzeadb_link">Sohm Al</a>, <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/duty/339c4923556/" class="eorzeadb_link" target="_blank">L'Aire</a> et <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/duty/a62f7ee3718/" class="eorzeadb_link" target="_blank">La Voûte</a></p>
+				</div>
+				<div class="imgRelic50">
+					<table>
+						<tr>
+							<td class="imgJob">
+								<button type="button" onclick="arme('paladin',60,2)"><img src="../image/job_icons/01_TANK/Job/Paladin.png"></button>
+								<button type="button" onclick="arme('guerrier',60,2)"><img src="../image/job_icons/01_TANK/Job/Warrior.png"></button>
+								<button type="button" onclick="arme('chevalier_noir',60,2)"><img src="../image/job_icons/01_TANK/Job/DarkKnight.png"></button>
+								<button type="button" onclick="arme('mage_blanc',60,2)"><img src="../image/job_icons/02_HEALER/Job/WhiteMage.png"></button>
+								<button type="button" onclick="arme('érudit',60,2)"><img src="../image/job_icons/02_HEALER/Job/Scholar.png"></button>
+								<button type="button" onclick="arme('astromancien',60,2)"><img src="../image/job_icons/02_HEALER/Job/Astrologian.png"></button>
+								<button type="button" onclick="arme('moine',60,2)"><img src="../image/job_icons/03_DPS/Job/Monk.png"></button>
+								<button type="button" onclick="arme('dragon',60,2)"><img src="../image/job_icons/03_DPS/Job/Dragoon.png"></button>
+								<button type="button" onclick="arme('ninja',60,2)"><img src="../image/job_icons/03_DPS/Job/Ninja.png"></button>
+								<button type="button" onclick="arme('barde',60,2)"><img src="../image/job_icons/03_DPS/Job/Bard.png"></button>
+								<button type="button" onclick="arme('machiniste',60,2)"><img src="../image/job_icons/03_DPS/Job/Machinist.png"></button>
+								<button type="button" onclick="arme('mage_noir',60,2)"><img src="../image/job_icons/03_DPS/Job/BlackMage.png"></button>
+								<button type="button" onclick="arme('invocateur',60,2)"><img src="../image/job_icons/03_DPS/Job/Summoner.png"></button>
+							</td>
+						</tr>
+						<tr>
+							<td id="imgRelic2" class="imgRelic"><img src="../image/image_reliques/paladin/60(2).png"></td>
+						</tr>
+					</table>
+				</div>
 			</div>
 			<div id="etape3" style="display: none;">
+				<h1>Etape 3 : Arme Anima</h1>
+				<div class="lieux">
+					<p>PNJ: <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/08cc9e30841/" class="eorzeadb_link" target="_blank">Ardashir</a>, <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/shop/6e5a734f413/" class="eorzeadb_link" target="_blank">Cristiana</a>, <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/a1bd86dc373/" class="eorzeadb_link" target="_blank">Gerolt</a></p>
+					<p>Objets necéssaire: 1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/cae6068ad33/" class="eorzeadb_link" target="_blank">Caoutchouc enchanté</a>, <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/74ebd38b350/" class="eorzeadb_link" target="_blank">Agent solidifiant allagois supérieur</a>, <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/7ad37cdb5d0/" class="eorzeadb_link" target="_blank">Eau divine</a> et 1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/1a9b83307fb/" class="eorzeadb_link" target="_blank">Catalyseur allagois supérieur</a></p>
+				</div>
+				<div class="description">
+					<p><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/08cc9e30841/" class="eorzeadb_link" target="_blank">Ardashir</a> vous demandera d'aller voir <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/shop/6e5a734f413/" class="eorzeadb_link" target="_blank">Cristiana</a> afin d'obtenir 1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/cae6068ad33/" class="eorzeadb_link" target="_blank">Caoutchouc enchanté</a>, 1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/74ebd38b350/" class="eorzeadb_link" target="_blank">Agent solidifiant allagois supérieur</a>, 1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/7ad37cdb5d0/" class="eorzeadb_link" target="_blank">Eau divine</a> et 1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/1a9b83307fb/" class="eorzeadb_link" target="_blank">Catalyseur allagois supérieur</a> que vous récupérerer en échange d'objets achetable avec des sceaux de grande Compagnie et des mémoquartz poétiques.</p>
+					<table class="Atma">
+						<tr class="ligne_titre_60">
+							<td>Objets de Cristiana</td>
+							<td>Sceaux de grandes Compagnie (5 000/objets)</td>
+							<td>Mémoquartz poétiques (150/objets)</td>
+						</tr>
+						<tr class="memo_relique_60">
+							<td>1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/cae6068ad33/" class="eorzeadb_link" target="_blank">Caoutchouc enchanté</a></td>
+							<td>4 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/dc6f27dbcc8/" class="eorzeadb_link" target="_blank">Francisque en adamantium</a></td>
+							<td>10 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/e6f03add15c/" class="eorzeadb_link" target="_blank">Fragment d'os mystérieux</a></td>
+						</tr>
+						<tr class="memo_relique_60">
+							<td>1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/74ebd38b350/" class="eorzeadb_link" target="_blank">Agent solidifiant allagois supérieur</a></td>
+							<td>4 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/d59a10a968e/" class="eorzeadb_link" target="_blank">Miroir en alliage de titane</a></td>
+							<td>10 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/a8c273eaf4c/" class="eorzeadb_link" target="_blank">Coquillage mystérieux</a></td>
+						</tr>
+						<tr class="memo_relique_60">
+							<td>1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/7ad37cdb5d0/" class="eorzeadb_link" target="_blank">Eau divine</a></td>
+							<td>4 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/e570163a3cc/" class="eorzeadb_link" target="_blank">Flèche-amulette</a></td>
+							<td>10 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/75913fea7aa/" class="eorzeadb_link" target="_blank">Gemme brute mystérieuse</a></td>
+						</tr>
+						<tr class="memo_relique_60">
+							<td>1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/1a9b83307fb/" class="eorzeadb_link" target="_blank">Catalyseur allagois supérieur</a></td>
+							<td>4 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/d8e72c48ac6/" class="eorzeadb_link" target="_blank">Brioche des rois</a></td>
+							<td>10 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/e2cb5b255c7/" class="eorzeadb_link" target="_blank">Graines mystérieuses</a></td>
+						</tr>
+					</table>
+					<p>NB: il est possible d'acheter <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/e6f03add15c/" class="eorzeadb_link" target="_blank">Fragment d'os mystérieux</a>, <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/a8c273eaf4c/" class="eorzeadb_link" target="_blank">Coquillage mystérieux</a>, <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/75913fea7aa/" class="eorzeadb_link" target="_blank">Gemme brute mystérieuse</a> et <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/e2cb5b255c7/" class="eorzeadb_link" target="_blank">Graines mystérieuses</a> avec des insignes allié (300/Objets), de la monnaie tribal (prix variant en fonction des tribus) ou les récompenses obtenus en finnissant les 4 premiers raid d'Alexander (3/Objets).</p>
+					<p>Retourner ensuite voir <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/a1bd86dc373/" class="eorzeadb_link" target="_blank">Gerolt</a>.</p>
+				</div>
+				<div class="imgRelic50">
+					<table>
+						<tr>
+							<td class="imgJob">
+								<button type="button" onclick="arme('paladin',60,3)"><img src="../image/job_icons/01_TANK/Job/Paladin.png"></button>
+								<button type="button" onclick="arme('guerrier',60,3)"><img src="../image/job_icons/01_TANK/Job/Warrior.png"></button>
+								<button type="button" onclick="arme('chevalier_noir',60,3)"><img src="../image/job_icons/01_TANK/Job/DarkKnight.png"></button>
+								<button type="button" onclick="arme('mage_blanc',60,3)"><img src="../image/job_icons/02_HEALER/Job/WhiteMage.png"></button>
+								<button type="button" onclick="arme('érudit',60,3)"><img src="../image/job_icons/02_HEALER/Job/Scholar.png"></button>
+								<button type="button" onclick="arme('astromancien',60,3)"><img src="../image/job_icons/02_HEALER/Job/Astrologian.png"></button>
+								<button type="button" onclick="arme('moine',60,3)"><img src="../image/job_icons/03_DPS/Job/Monk.png"></button>
+								<button type="button" onclick="arme('dragon',60,3)"><img src="../image/job_icons/03_DPS/Job/Dragoon.png"></button>
+								<button type="button" onclick="arme('ninja',60,3)"><img src="../image/job_icons/03_DPS/Job/Ninja.png"></button>
+								<button type="button" onclick="arme('barde',60,3)"><img src="../image/job_icons/03_DPS/Job/Bard.png"></button>
+								<button type="button" onclick="arme('machiniste',60,3)"><img src="../image/job_icons/03_DPS/Job/Machinist.png"></button>
+								<button type="button" onclick="arme('mage_noir',60,3)"><img src="../image/job_icons/03_DPS/Job/BlackMage.png"></button>
+								<button type="button" onclick="arme('invocateur',60,3)"><img src="../image/job_icons/03_DPS/Job/Summoner.png"></button>
+							</td>
+						</tr>
+						<tr>
+							<td id="imgRelic3" class="imgRelic"><img src="../image/image_reliques/paladin/60(3).png"></td>
+						</tr>
+					</table>
+				</div>
 			</div>
 			<div id="etape4" style="display: none;">
+				<h1>Etape 4 : Arme Hyperconductrice</h1>
+				<div class="lieux">
+					<p>PNJ: <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/08cc9e30841/" class="eorzeadb_link" target="_blank">Ardashir</a></p>
+					<p>Objets necéssaire: 5 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/333e194da24/" class="eorzeadb_link" target="_blank">Huile isolante</a></p>
+				</div>
+				<div class="description">
+					<p><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/08cc9e30841/" class="eorzeadb_link" target="_blank">Ardashir</a> vous demandera simplement de lui apporté 5 pot d'<a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/333e194da24/" class="eorzeadb_link" target="_blank">Huile isolante</a> achetable pour 350 mémoquartz poétiques par pot.</p>
+				</div>
+				<div class="imgRelic50">
+					<table>
+						<tr>
+							<td class="imgJob">
+								<button type="button" onclick="arme('paladin',60,4)"><img src="../image/job_icons/01_TANK/Job/Paladin.png"></button>
+								<button type="button" onclick="arme('guerrier',60,4)"><img src="../image/job_icons/01_TANK/Job/Warrior.png"></button>
+								<button type="button" onclick="arme('chevalier_noir',60,4)"><img src="../image/job_icons/01_TANK/Job/DarkKnight.png"></button>
+								<button type="button" onclick="arme('mage_blanc',60,4)"><img src="../image/job_icons/02_HEALER/Job/WhiteMage.png"></button>
+								<button type="button" onclick="arme('érudit',60,4)"><img src="../image/job_icons/02_HEALER/Job/Scholar.png"></button>
+								<button type="button" onclick="arme('astromancien',60,4)"><img src="../image/job_icons/02_HEALER/Job/Astrologian.png"></button>
+								<button type="button" onclick="arme('moine',60,4)"><img src="../image/job_icons/03_DPS/Job/Monk.png"></button>
+								<button type="button" onclick="arme('dragon',60,4)"><img src="../image/job_icons/03_DPS/Job/Dragoon.png"></button>
+								<button type="button" onclick="arme('ninja',60,4)"><img src="../image/job_icons/03_DPS/Job/Ninja.png"></button>
+								<button type="button" onclick="arme('barde',60,4)"><img src="../image/job_icons/03_DPS/Job/Bard.png"></button>
+								<button type="button" onclick="arme('machiniste',60,4)"><img src="../image/job_icons/03_DPS/Job/Machinist.png"></button>
+								<button type="button" onclick="arme('mage_noir',60,4)"><img src="../image/job_icons/03_DPS/Job/BlackMage.png"></button>
+								<button type="button" onclick="arme('invocateur',60,4)"><img src="../image/job_icons/03_DPS/Job/Summoner.png"></button>
+							</td>
+						</tr>
+						<tr>
+							<td id="imgRelic4" class="imgRelic"><img src="../image/image_reliques/paladin/60(4).png"></td>
+						</tr>
+					</table>
+				</div>
 			</div>
 			<div id="etape5" style="display: none;">
+				<h1>Etape 5 : Arme Épanouie</h1>
+				<div class="lieux">
+					<p>PNJ: <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/08cc9e30841/" class="eorzeadb_link" target="_blank">Ardashir</a>, <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/0b160350e8f/" class="eorzeadb_link" target="_blank">Ulan</a></p>
+					<p>Objets necéssaire: Aucun</p>
+				</div>
+				<div class="description">
+					<p><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/08cc9e30841/" class="eorzeadb_link" target="_blank">Ardashir</a> vous demandera d'aller voir <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/0b160350e8f/" class="eorzeadb_link" target="_blank">Ulan</a> qui vous expliquera comment aider l'esprit de votre arme à s'épanouir.</p>
+					<p>Pour cette étapes vous devrez échanger 1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/f2189aabe98/" class="eorzeadb_link" target="_blank">Sable de cristal</a> et 1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/bec42552515/" class="eorzeadb_link" target="_blank">Roche ombrale dure</a> pour gagner 3 points de statistiques à mettre sur votre arme (pour un total de 180 points).</p>
+					<p>Vous pouvez mettre les points de statistiques sur votre arme en parlant à <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/0b160350e8f/" class="eorzeadb_link" target="_blank">Ulan</a> ou en utilisant la lunette Anima présent dans vos objets clés.</p>
+					<p>Les <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/bec42552515/" class="eorzeadb_link" target="_blank">Roche ombrale dure</a> coûtent 75 mémoquatz poétiques.</p>
+					<p>Le <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/f2189aabe98/" class="eorzeadb_link" target="_blank">Sable de cristal</a> peux s'obtenir de différentes manières, il vous suffira de parler à <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/0b160350e8f/" class="eorzeadb_link" target="_blank">Ulan</a> ou d'utiliser le Mémento d'Ulan dans vos objets clés pour voir  quel objets vous pouvez échanger contre du sable de cristal.</p>
+				</div>
+				<div class="imgRelic50">
+					<table>
+						<tr>
+							<td class="imgJob">
+								<button type="button" onclick="arme('paladin',60,5)"><img src="../image/job_icons/01_TANK/Job/Paladin.png"></button>
+								<button type="button" onclick="arme('guerrier',60,5)"><img src="../image/job_icons/01_TANK/Job/Warrior.png"></button>
+								<button type="button" onclick="arme('chevalier_noir',60,5)"><img src="../image/job_icons/01_TANK/Job/DarkKnight.png"></button>
+								<button type="button" onclick="arme('mage_blanc',60,5)"><img src="../image/job_icons/02_HEALER/Job/WhiteMage.png"></button>
+								<button type="button" onclick="arme('érudit',60,5)"><img src="../image/job_icons/02_HEALER/Job/Scholar.png"></button>
+								<button type="button" onclick="arme('astromancien',60,5)"><img src="../image/job_icons/02_HEALER/Job/Astrologian.png"></button>
+								<button type="button" onclick="arme('moine',60,5)"><img src="../image/job_icons/03_DPS/Job/Monk.png"></button>
+								<button type="button" onclick="arme('dragon',60,5)"><img src="../image/job_icons/03_DPS/Job/Dragoon.png"></button>
+								<button type="button" onclick="arme('ninja',60,5)"><img src="../image/job_icons/03_DPS/Job/Ninja.png"></button>
+								<button type="button" onclick="arme('barde',60,5)"><img src="../image/job_icons/03_DPS/Job/Bard.png"></button>
+								<button type="button" onclick="arme('machiniste',60,5)"><img src="../image/job_icons/03_DPS/Job/Machinist.png"></button>
+								<button type="button" onclick="arme('mage_noir',60,5)"><img src="../image/job_icons/03_DPS/Job/BlackMage.png"></button>
+								<button type="button" onclick="arme('invocateur',60,5)"><img src="../image/job_icons/03_DPS/Job/Summoner.png"></button>
+							</td>
+						</tr>
+						<tr>
+							<td id="imgRelic5" class="imgRelic"><img src="../image/image_reliques/paladin/60(5).png"></td>
+						</tr>
+					</table>
+				</div>
 			</div>
 			<div id="etape6" style="display: none;">
+				<h1>Etape 6 : Arme Vivifié</h1>
+				<div class="lieux">
+					<p>PNJ: <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/08cc9e30841/" class="eorzeadb_link" target="_blank">Ardashir</a>, <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/26e4c1e0636/" class="eorzeadb_link" target="_blank">Blamprest</a></p>
+					<p>Objets necéssaire: 50 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/b3f273419ce/" class="eorzeadb_link" target="_blank">Agrégats résonnant</a></p>
+				</div>
+				<div class="description">
+					<p><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/08cc9e30841/" class="eorzeadb_link" target="_blank">Ardashir</a> vous demandera d'aller voir <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/26e4c1e0636/" class="eorzeadb_link" target="_blank">Blamprest</a> qui vous demandera de lui donner 50 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/b3f273419ce/" class="eorzeadb_link" target="_blank">Agrégats résonnant</a>.</p>
+					<p>Vous pouvez obtenir 1 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/b3f273419ce/" class="eorzeadb_link" target="_blank">Agrégat résonnant</a> par jour en faisant la quête journalière "<a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/d5e9310f06b/" class="eorzeadb_link" target="_blank">Au service d'Angelet</a>" et 18 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/b3f273419ce/" class="eorzeadb_link" target="_blank">Agrégats résonnant</a> par semaine en faisant la quête hebdomadaire "<a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/3e8fe25633a/" class="eorzeadb_link" target="_blank">Au service d'Amphelice</a>". Ces 2 quêtes se trouvent juste à coté de <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/26e4c1e0636/" class="eorzeadb_link" target="_blank">Blamprest</a> à Idyllée.</p>
+					<p>Vous pouvez aussi acheter les <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/b3f273419ce/" class="eorzeadb_link" target="_blank">Agrégats résonnant</a> pour 40 mémoquartz poétique l'unité.</p>
+				</div>
+				<div class="imgRelic50">
+					<table>
+						<tr>
+							<td class="imgJob">
+								<button type="button" onclick="arme('paladin',60,6)"><img src="../image/job_icons/01_TANK/Job/Paladin.png"></button>
+								<button type="button" onclick="arme('guerrier',60,6)"><img src="../image/job_icons/01_TANK/Job/Warrior.png"></button>
+								<button type="button" onclick="arme('chevalier_noir',60,6)"><img src="../image/job_icons/01_TANK/Job/DarkKnight.png"></button>
+								<button type="button" onclick="arme('mage_blanc',60,6)"><img src="../image/job_icons/02_HEALER/Job/WhiteMage.png"></button>
+								<button type="button" onclick="arme('érudit',60,6)"><img src="../image/job_icons/02_HEALER/Job/Scholar.png"></button>
+								<button type="button" onclick="arme('astromancien',60,6)"><img src="../image/job_icons/02_HEALER/Job/Astrologian.png"></button>
+								<button type="button" onclick="arme('moine',60,6)"><img src="../image/job_icons/03_DPS/Job/Monk.png"></button>
+								<button type="button" onclick="arme('dragon',60,6)"><img src="../image/job_icons/03_DPS/Job/Dragoon.png"></button>
+								<button type="button" onclick="arme('ninja',60,6)"><img src="../image/job_icons/03_DPS/Job/Ninja.png"></button>
+								<button type="button" onclick="arme('barde',60,6)"><img src="../image/job_icons/03_DPS/Job/Bard.png"></button>
+								<button type="button" onclick="arme('machiniste',60,6)"><img src="../image/job_icons/03_DPS/Job/Machinist.png"></button>
+								<button type="button" onclick="arme('mage_noir',60,6)"><img src="../image/job_icons/03_DPS/Job/BlackMage.png"></button>
+								<button type="button" onclick="arme('invocateur',60,6)"><img src="../image/job_icons/03_DPS/Job/Summoner.png"></button>
+							</td>
+						</tr>
+						<tr>
+							<td id="imgRelic6" class="imgRelic"><img src="../image/image_reliques/paladin/60(6).png"></td>
+						</tr>
+					</table>
+				</div>
 			</div>
 			<div id="etape7" style="display: none;">
+				<h1>Etape 7 : Arme Parachevé</h1>
+				<div class="lieux">
+					<p>PNJ: <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/08cc9e30841/" class="eorzeadb_link" target="_blank">Ardashir</a></p>
+					<p>Objets necéssaire: Aucun</p>
+				</div>
+				<div class="description">
+					<p><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/08cc9e30841/" class="eorzeadb_link" target="_blank">Ardashir</a> vous demandera de faire 3 donjons: <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/duty/193a96b0fa4/" class="eorzeadb_link" target="_blank">Les Vestiges de la cité d'Amdapor (brutal)</a>, <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/duty/d6e98e35e6f/" class="eorzeadb_link" target="_blank">La Grande bibliothèque de Gubal (brutal)</a> et <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/duty/9bd9004a140/" class="eorzeadb_link" target="_blank">Sohm Al (brutal)</a>.</p>
+				</div>
+				<div class="imgRelic50">
+					<table>
+						<tr>
+							<td class="imgJob">
+								<button type="button" onclick="arme('paladin',60,7)"><img src="../image/job_icons/01_TANK/Job/Paladin.png"></button>
+								<button type="button" onclick="arme('guerrier',60,7)"><img src="../image/job_icons/01_TANK/Job/Warrior.png"></button>
+								<button type="button" onclick="arme('chevalier_noir',60,7)"><img src="../image/job_icons/01_TANK/Job/DarkKnight.png"></button>
+								<button type="button" onclick="arme('mage_blanc',60,7)"><img src="../image/job_icons/02_HEALER/Job/WhiteMage.png"></button>
+								<button type="button" onclick="arme('érudit',60,7)"><img src="../image/job_icons/02_HEALER/Job/Scholar.png"></button>
+								<button type="button" onclick="arme('astromancien',60,7)"><img src="../image/job_icons/02_HEALER/Job/Astrologian.png"></button>
+								<button type="button" onclick="arme('moine',60,7)"><img src="../image/job_icons/03_DPS/Job/Monk.png"></button>
+								<button type="button" onclick="arme('dragon',60,7)"><img src="../image/job_icons/03_DPS/Job/Dragoon.png"></button>
+								<button type="button" onclick="arme('ninja',60,7)"><img src="../image/job_icons/03_DPS/Job/Ninja.png"></button>
+								<button type="button" onclick="arme('barde',60,7)"><img src="../image/job_icons/03_DPS/Job/Bard.png"></button>
+								<button type="button" onclick="arme('machiniste',60,7)"><img src="../image/job_icons/03_DPS/Job/Machinist.png"></button>
+								<button type="button" onclick="arme('mage_noir',60,7)"><img src="../image/job_icons/03_DPS/Job/BlackMage.png"></button>
+								<button type="button" onclick="arme('invocateur',60,7)"><img src="../image/job_icons/03_DPS/Job/Summoner.png"></button>
+							</td>
+						</tr>
+						<tr>
+							<td id="imgRelic7" class="imgRelic"><img src="../image/image_reliques/paladin/60(7).png"></td>
+						</tr>
+					</table>
+				</div>
 			</div>
 			<div id="etape8" style="display: none;">
 			</div>
