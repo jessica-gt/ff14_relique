@@ -253,6 +253,15 @@ tr img {
 	color: white;
 }
 
+.etapes_relique_50:active {
+	color: rgb(2, 6, 17);
+}
+
+.etapes_relique .ligne_titre_50 td:active {
+	border: outset  rgb(168, 211, 191);
+    background: rgb(168, 211, 191);
+}
+
 .memo_relique_50 td {
 	border: outset rgb(168, 211, 191);
     background: rgb(168, 211, 191);
@@ -267,10 +276,42 @@ tr img {
 	color: rgb(167, 111, 88);
 }
 
+.etapes_relique_60:active {
+	color: rgb(0, 25, 47);
+}
+
+.etapes_relique .ligne_titre_60 td:active {
+	border: outset rgb(193, 87, 74);
+    background: rgb(193, 87, 74);
+}
+
 .memo_relique_60 td {
 	border: outset rgb(193, 87, 74);
     background: rgb(193, 87, 74);
     color: rgb(0, 25, 47);
+}
+
+.etapes_relique_90 {
+	color: rgb(126, 244, 254);
+}
+
+.etapes_relique_90:hover {
+	color: rgb(214, 189, 184);
+}
+
+.etapes_relique_90:active {
+	color: rgb(23, 22, 40);
+}
+
+.etapes_relique .ligne_titre_90 td:active {
+	border: outset rgb(126, 244, 254);
+    background: rgb(126, 244, 254);
+}
+
+.memo_relique_90 td {
+	border: outset rgb(126, 244, 254);
+    background: rgb(126, 244, 254);
+    color: rgb(23, 22, 40);
 }
 
 /* ligne sous le tableau des arme relique */
@@ -295,6 +336,11 @@ tr img {
 .quetes_60 p a:hover {
 	color: rgb(193, 87, 74);
 	background-color: rgb(0, 25, 47);
+}
+
+.quetes_90 p a:hover {
+	color: rgb(126, 244, 254);
+	background-color: rgb(23, 22, 40);
 }
 
 /* localisation et objets */
@@ -358,6 +404,12 @@ tr img {
     color: rgb(193, 87, 74);
 }
 
+.ligne_titre_90 td{
+	border: inset rgb(126, 244, 254);
+	background-color: rgb(23, 22, 40);
+    color: rgb(126, 244, 254);
+}
+
 /* image des armes reliques */
 .imgJob tr img {
 	width: auto;
@@ -387,27 +439,46 @@ tr img {
 }
 
 /* footer */
-.baniere2 {
+#baniere2 {
 	display: flex;
 	justify-content: space-around;
 	width: 100vw;
     position: fixed;
     bottom: 0px;
-    background-color: rgb(28, 32, 61);
     padding: 5px;
 }
 
-.baniere2 button {
+#baniere2 button {
 	border: outset;
 	border-radius: 13px;
 	background-color: moccasin;
 }
 
-.baniere2 button:active {
+#baniere2 button:active {
 	border: inset;
 }
 
-.baniere2 button:disabled {
+#baniere2 button:disabled {
 	border: inset;
     background-color: darkgray;
+}
+
+.footer_50 {
+    background-color: rgb(2, 6, 17);
+}
+
+.footer_60 {
+	background-color: rgb(0, 25, 47);
+}
+
+.footer_70 {
+	background-color: rgb(57, 58, 63);
+}
+
+.footer_80 {
+	background-color: rgb(12, 10, 15);
+}
+
+.footer_90 {
+	background-color: rgb(23, 22, 40);
 }
