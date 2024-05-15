@@ -45,6 +45,7 @@ h1{
 /* police quetes */
 .quetes{
 	font-family: "planewalker";
+	line-height: 30px;
 }
 
 .container {
