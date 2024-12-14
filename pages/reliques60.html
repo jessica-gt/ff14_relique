@@ -30,7 +30,7 @@
 			<p>(Cliquez sur une étape pour l'afficher)</p>
 			<table class="etapes_relique">
 				<tr class="ligne_titre_60">
-					<td>Étapes</td>
+					<td><button id="bouton0" class="etapes_relique_60" onclick="affichage(0,8)" disabled><img src="../image/housing.png"></button></td>
 					<td><button id="bouton1" class="etapes_relique_60" onclick="affichage(1,8)">1-arme Animé</button></td>
 					<td><button id="bouton2" class="etapes_relique_60" onclick="affichage(2,8)">2-arme Éveillé</button></td>
 					<td><button id="bouton3" class="etapes_relique_60" onclick="affichage(3,8)">3-arme Anima</button></td>
@@ -76,12 +76,12 @@
 			</table>
 			<p>L'arme relique 60 vous demandera un total de 7 990 Mémoquartz Poétique et 140 000 Sceaux de Grande Compagnie. (Le prix des nombreux TP n'est pas pris en compte)</p>
 			<div class="line"></div>
-			<div class="quetes_60">
+			<div class="quetes_60" id="etape0" style="display: block;">
 			<p>Pour toutes les armes reliques 60, il vous faudra faire la suite de quêtes des armes Anima:</p>
 			<p class="quetes">(quête pour débloquer les armes reliques 60 à faire une seule fois) -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/fb5d98ff180/" class="eorzeadb_link" target="_blank">De l'esprit des armes</a></p>
 			<p class="quetes"><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/0136a6df60a/" class="eorzeadb_link" target="_blank">Les cristaux d'Ardashir</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/3a19d47a205/" class="eorzeadb_link" target="_blank">Les marches de l'éveil</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/a37d18ed018/" class="eorzeadb_link" target="_blank">Anima nova</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/bf6394ecf52/" class="eorzeadb_link" target="_blank">Parole à l'esprit</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/1ef99ba9eeb/" class="eorzeadb_link" target="_blank">Épanouissement accéléré</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/855114f5906/" class="eorzeadb_link" target="_blank">Souvenirs vivifiants</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/496ec3951a9/" class="eorzeadb_link" target="_blank">Le dernier transfert</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/9da6270b969/" class="eorzeadb_link" target="_blank">Double complicité</a></p>
-			</div>
 			<div class="line"></div>
+			</div>
 			<div id="etape1" style="display: none;">
 				<h1>Etape 1 : Arme Animé</h1>
 				<div class="lieux">
@@ -438,7 +438,7 @@
 					<a href="#top"><button type="button"><img src="../image/jump.png"></button></a>
 				</div>
 				<div class="suivant">
-					<button type="button" onclick="suivant(8)" disabled id="btnSuivant"><img src="../image/target_forward.png"></button>
+					<button type="button" onclick="suivant(8)" id="btnSuivant"><img src="../image/target_forward.png"></button>
 				</div>
 			</div>
 		</footer>

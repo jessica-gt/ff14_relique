@@ -1,4 +1,4 @@
-/* mise en place du body */
+																							/* mise en place du body */
 body {
 	margin:0 auto;
 	background:#FEEDD2;
@@ -21,7 +21,7 @@ button:disabled{
 	cursor: url("../image/pointer/UNAVABIBLE.cur"), pointer;
 }
 
-/* Police d'écriture */
+																							/* Police d'écriture */
 @font-face {
     font-family: 'Final-Fantasy';
     src: url('../image/polices/Final-Fantasy.ttf') format("truetype");
@@ -37,12 +37,12 @@ button:disabled{
     src: url('../image/polices/glimmer of light.otf');
 }
 
-/* police titre */
+																							/* police titre */
 h1{
 	font-family: "glimmer";
 }
 
-/* police quetes */
+																							/* police quetes */
 .quetes{
 	font-family: "planewalker";
 	line-height: 30px;
@@ -52,14 +52,14 @@ h1{
 	width:60%;
 }
 
-/* mise en place de la baniere */
+																						/* mise en place de la baniere */
 .baniere {
 	min-width: 100%;
 	height: 120px;
 	display: flex;
 }
 
-/* image baniere des différents onglets */
+																					/* image baniere des différents onglets */
 .image1 {
 	background: center / cover no-repeat url('../image/baniere_endwalker.jpg');
 	width: 500px;
@@ -95,7 +95,7 @@ h1{
 	margin: 1%;
 }
 
-/* menu accueil */
+																									/* menu accueil */
 #menu1 {
 	background-color: rgb(28, 32, 61);
 }
@@ -108,7 +108,7 @@ h1{
 	color: rgb(168, 131, 122);
 }
 
-/* menu arme 50 */
+																									/* menu arme 50 */
 #menu2 a {
 	color: white;
 }
@@ -121,7 +121,7 @@ h1{
 	color: rgb(168, 211, 191);
 }
 
-/* menu arme 60 */
+																									/* menu arme 60 */
 #menu3 a {
 	color: rgb(167, 111, 88);
 }
@@ -134,7 +134,7 @@ h1{
 	color: rgb(193, 87, 74);
 }
 
-/* menu arme 70 */
+																									/* menu arme 70 */
 #menu4 a {
 	color: rgb(166, 155, 123);
 }
@@ -147,7 +147,7 @@ h1{
 	color: rgb(241, 227, 218);
 }
 
-/* menu arme 80 */
+																									/* menu arme 80 */
 #menu5 a {
 	color: rgb(131, 172, 228);
 }
@@ -160,7 +160,7 @@ h1{
 	color: rgb(148, 92, 241);
 }
 
-/* menu arme 90 */
+																									/* menu arme 90 */
 #menu6 a {
 	color: rgb(214, 189, 184);
 }
@@ -173,7 +173,7 @@ h1{
 	color: rgb(126, 244, 254);
 }
 
-/* menu général */
+																									/* menu général */
 .menu {
 	width: 77%;
 	font-family: "planewalker";
@@ -204,7 +204,7 @@ h1{
 	text-decoration: underline;	
 }
 
-/* mise en place de la page d'acceuil */
+																								/* mise en place de la page d'acceuil */
 .accueil {
 	text-align: center;
     width: 100%;
@@ -215,7 +215,7 @@ p {
 	padding: 1%;
 }
 
-/* personalisation de tableau d'acceuil */
+																							/* personalisation de tableau d'acceuil */
 .tableau {
 	display: flex;
 	justify-content: space-evenly;
@@ -226,7 +226,7 @@ tr img {
 	width: 3vw;
 }
 
-/* tableau des étape des armes reliques */
+																				/* tableau des étape des armes reliques */
 
 .etapes_relique {
 	width: 100%;
@@ -239,12 +239,14 @@ tr img {
 .etapes_relique td button {
 	border: none;
 	background: none;
-	width: 100%;
-	height: 100%;
+	min-width: 100%;
+	min-height: 100%;
 	padding: 0;
 	font-family: Georgia;
 	font-size: 18px;
 }
+
+/* relique 50 */
 
 .etapes_relique_50 {
 	color: rgb(168, 211, 191);
@@ -263,11 +265,23 @@ tr img {
     background: rgb(168, 211, 191);
 }
 
+/* changement de couleur du parent du bouton quand il est désactiver */
+
+:has(>.etapes_relique_50:disabled) {
+	background: rgb(168, 211, 191);
+}
+
+.etapes_relique_50:disabled {
+	color: rgb(2, 6, 17);	
+}
+
 .memo_relique_50 td {
 	border: outset rgb(168, 211, 191);
     background: rgb(168, 211, 191);
     color: rgb(2, 6, 17);
 }
+
+/* relique 60 */
 
 .etapes_relique_60 {
 	color: rgb(193, 87, 74);
@@ -292,6 +306,16 @@ tr img {
     color: rgb(0, 25, 47);
 }
 
+:has(>.etapes_relique_60:disabled) {
+	background: rgb(193, 87, 74);
+}
+
+.etapes_relique_60:disabled {
+	color: rgb(0, 25, 47);	
+}
+
+/* relique 90 */
+
 .etapes_relique_90 {
 	color: rgb(126, 244, 254);
 }
@@ -315,14 +339,22 @@ tr img {
     color: rgb(23, 22, 40);
 }
 
-/* ligne sous le tableau des arme relique */
+:has(>.etapes_relique_90:disabled) {
+	background: rgb(126, 244, 254);
+}
+
+.etapes_relique_90:disabled {
+	color: rgb(23, 22, 40);	
+}
+
+																					/* ligne sous le tableau des arme relique */
 .line {
 	border: dashed 1px;
 	width: 80vw;
     display: inline-block;
 }
 
-/* liste quetes */
+																								/* liste quetes */
 .quetes a {
 	border: double;
 	color: black;
@@ -344,7 +376,7 @@ tr img {
 	background-color: rgb(23, 22, 40);
 }
 
-/* localisation et objets */
+																							/* localisation et objets */
 .lieux {
 	display: flex;
     justify-content: space-between;
@@ -360,7 +392,7 @@ tr img {
 	font-weight: bold;
 }
 
-/* description des etapes */
+																								/* description des etapes */
 .description {
 	text-align: left;
 }
@@ -370,7 +402,7 @@ tr img {
 	color: black;
 }
 
-/* tableau atma et autre lumières */
+																							/* tableau atma et autre lumières */
 .Atma td {
     text-align: center;
     padding: 3px;
@@ -411,7 +443,7 @@ tr img {
     color: rgb(126, 244, 254);
 }
 
-/* image des armes reliques */
+																									/* image des armes reliques */
 .imgJob tr img {
 	width: auto;
 }
@@ -439,7 +471,7 @@ tr img {
 	padding-bottom: 100px;
 }
 
-/* footer */
+																										/* footer */
 #baniere2 {
 	display: flex;
 	justify-content: space-around;
