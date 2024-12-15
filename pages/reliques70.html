@@ -26,6 +26,135 @@
 		</div>
 		<div class="accueil">
 			<h1>Saga des armes d'Eurêka</h1>
+			<p>Tableau récapitulatif des étapes de l'arme relique :</p>
+			<p>(Cliquez sur une étape pour l'afficher)</p>
+			<table class="etapes_relique">
+				<tr class="ligne_titre_70">
+					<td><button id="bouton0" class="etapes_relique_70" onclick="affichage(0,4)" disabled><img src="../image/housing.png"></button></td>
+					<td><button id="bouton1" class="etapes_relique_70" onclick="affichage(1,4)">1-arme Anemos</button></td>
+					<td><button id="bouton2" class="etapes_relique_70" onclick="affichage(2,4)">2-arme Élémentaire</button></td>
+					<td><button id="bouton3" class="etapes_relique_70" onclick="affichage(3,4)">3-arme Pyros</button></td>
+					<td><button id="bouton4" class="etapes_relique_70" onclick="affichage(4,4)">4-arme Eurêka</button></td>
+				</tr>
+				<tr class="memo_relique_70">
+					<td>objets spécifique à la zone d'Eurêka</td>
+					<td>3 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/101bbba8f5e/" class="eorzeadb_link" target="blank">Plumes de Pazuzu</a></td>
+					<td>5 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/b68db73a0e5/" class="eorzeadb_link" target="blank">Glaces de Louhi</a></td>
+					<td>5 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/c2141e9f33d/" class="eorzeadb_link" target="blank">Braises de Penthésilée</a></td>
+					<td>5 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/c3b0a01b1b5/" class="eorzeadb_link" target="blank">Écailles de dragon de cristal</a></td>
+				</tr>
+				<tr class="memo_relique_70">
+					<td>cristaux spécifique à la zone d'Eurêka</td>
+					<td>1 300 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/1ddb5737b30/" class="eorzeadb_link" target="blank">Cristal instable</a></td>
+					<td>500 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/539525601cc/" class="eorzeadb_link" target="blank">Cristal Pagos</a> et 31 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/b918d4c6aa8/" class="eorzeadb_link" target="blank">Cristal instable de glace</a></td>
+					<td>650 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/86667932f8f/" class="eorzeadb_link" target="blank">Cristal Pyros</a></td>
+					<td>350 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/b368a0d7052/" class="eorzeadb_link" target="blank">Cristal Hydatos</a></td>
+				</tr>
+			</table>
+			<p>L'arme relique 70 vous demandera un farm intensif dans la zone instanciée d'Eurêka.</p>
+			<div class="line"></div>
+			<div class="quetes_70" id="etape0" style="display: block;">
+			<p>Pour pouvoir avoir accès aux armes relique 70, il faudra avoir terminer la quête 70 du job dont vous voulez l'arme afin d'obtenir l'arme viellie correspondante. Si vous l'avez jeter ou perdu vous pouvez la racheter pour 1 000 gils à un consigneur dans l'une des 3 villes de départ.</p>
+			<p>ATTENTION: Il n'y a pas de quête a proprement parler. Il faut simplement donner les bons objets au bon PNJ.</p>
+			<p>ATTENTION 2: Si ce n'est pas fait, il vous faudra faire les quêtes de Krile afin d'avancer dans Eurêka. Ce <a href="https://ffxiv-eureka.com/">site</a> vous permettra de trouver les quêtes et monstres des différentes zones.</p>
+			<div class="line"></div>
+			</div>
+			<div id="etape1" style="display: none;">
+				<h1>Etape 1 : Arme Anemos</h1>
+				<div class="lieux">
+					<p>PNJ: Gerolt</p>
+					<p>Objets necéssaire: 3 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/101bbba8f5e/" class="eorzeadb_link" target="blank">Plumes de Pazuzu</a> et 1 300 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/1ddb5737b30/" class="eorzeadb_link" target="blank">Cristal instable</a></p>
+				</div>
+				<div class="description">
+					<p>En possession de votre arme vielli (le paladin doit aussi avoir le bouclier) et de 100 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/1ddb5737b30/" class="eorzeadb_link" target="blank">Cristal instable</a>, parler à Gerolt à Anemos pour améliorer une pièce d'équipement.</p>
+					<p>De la même manière, échanger votre arme et 400 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/1ddb5737b30/" class="eorzeadb_link" target="blank">Cristal instable</a> pour obtenir l'arme +1.</p>
+					<p>Encore une fois, échanger l'arme +1 et 800 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/1ddb5737b30/" class="eorzeadb_link" target="blank">Cristal instable</a> pour obtenir l'arme +2.</p>
+					<p>Cette fois-ci, en possesion de 3 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/101bbba8f5e/" class="eorzeadb_link" target="blank">Plumes de Pazuzu</a> prenez le job de l'arme relique souhaité et parler à Gerolt afin d'améliorer votre arme +2.</p>
+					<p>Pour obtenir des <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/1ddb5737b30/" class="eorzeadb_link" target="blank">Cristal instable</a> vous devrez accomplir des Aléas à Anemos qui vous donneront des <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/3dd8bb72081/" class="eorzeadb_link" target="blank">Cristal Anemos</a>. Remettez-les à Gerolt pour les échanger contre 3 à 5 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/1ddb5737b30/" class="eorzeadb_link" target="blank">Cristal instable</a> par <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/3dd8bb72081/" class="eorzeadb_link">Cristal Anemos</a>. Les 3 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/101bbba8f5e/" class="eorzeadb_link" target="blank">Plumes de Pazuzu</a> tomberont à chaque fois que vous terminerez l'aléa : Le démon des tempêtes avec une médaille d'or dans Anemos. Les <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/101bbba8f5e/" class="eorzeadb_link" target="blank">Plumes de Pazuzu</a> peuvent également être achetées auprès de la Sentinelle de l'expédition pour 300 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/1ddb5737b30/" class="eorzeadb_link" target="blank">Cristal instable</a> chacune.</p>
+				</div>
+				<div class="imgRelic50">
+					<table>
+						<tr>
+							<td>
+								<button type="button" onclick="arme('paladin',70,1)"><img src="../image/job_icons/01_TANK/Job/Paladin.png"></button>
+								<button type="button" onclick="arme('guerrier',70,1)"><img src="../image/job_icons/01_TANK/Job/Warrior.png"></button>
+								<button type="button" onclick="arme('chevalier_noir',70,1)"><img src="../image/job_icons/01_TANK/Job/DarkKnight.png"></button>
+								<button type="button" onclick="arme('mage_blanc',70,1)"><img src="../image/job_icons/02_HEALER/Job/WhiteMage.png"></button>
+								<button type="button" onclick="arme('érudit',70,1)"><img src="../image/job_icons/02_HEALER/Job/Scholar.png"></button>
+								<button type="button" onclick="arme('astromancien',70,1)"><img src="../image/job_icons/02_HEALER/Job/Astrologian.png"></button>
+								<button type="button" onclick="arme('moine',70,1)"><img src="../image/job_icons/03_DPS/Job/Monk.png"></button>
+								<button type="button" onclick="arme('dragon',70,1)"><img src="../image/job_icons/03_DPS/Job/Dragoon.png"></button>
+								<button type="button" onclick="arme('ninja',70,1)"><img src="../image/job_icons/03_DPS/Job/Ninja.png"></button>
+								<button type="button" onclick="arme('samourai',70,1)"><img src="../image/job_icons/03_DPS/Job/Samurai.png"></button>
+								<button type="button" onclick="arme('barde',70,1)"><img src="../image/job_icons/03_DPS/Job/Bard.png"></button>
+								<button type="button" onclick="arme('machiniste',70,1)"><img src="../image/job_icons/03_DPS/Job/Machinist.png"></button>
+								<button type="button" onclick="arme('mage_noir',70,1)"><img src="../image/job_icons/03_DPS/Job/BlackMage.png"></button>
+								<button type="button" onclick="arme('invocateur',70,1)"><img src="../image/job_icons/03_DPS/Job/Summoner.png"></button>
+								<button type="button" onclick="arme('mage_rouge',70,1)"><img src="../image/job_icons/03_DPS/Job/RedMage.png"></button>
+							</td>
+						</tr>
+						<tr>
+							<td id="imgRelic1" class="imgRelic"><img src="../image/image_reliques/paladin/70(1).png"></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div id="etape2" style="display: none;">
+				<h1>Etape 2 : Arme Elémentaire</h1>
+				<div class="lieux">
+					<p>PNJ: Gerolt</p>
+					<p>Objets necéssaire: 5 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/b68db73a0e5/" class="eorzeadb_link" target="blank">Glaces de Louhi</a>, 500 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/539525601cc/" class="eorzeadb_link" target="blank">Cristal Pagos</a> et 31 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/b918d4c6aa8/" class="eorzeadb_link" target="blank">Cristal instable de glace</a></p>
+				</div>
+				<div class="description">
+					<p>Dans le job de l'arme souhaité, en possession de votre arme anemos et 5 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/b918d4c6aa8/" class="eorzeadb_link" target="blank">Cristal instable de glace</a>, parler à Gerolt pour amélioré votre arme d'Eurêka.</p>
+					<p>Toujours dans votre job, en possession de 10 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/b918d4c6aa8/" class="eorzeadb_link" target="blank">Cristal instable de glace</a> et 500 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/539525601cc/" class="eorzeadb_link" target="blank">Cristal Pagos</a> , reparler à Gerolt pour améliorer votre arme pagos.</p>
+					<p>Encore une fois, dans votre job, en possession de 16 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/b918d4c6aa8/" class="eorzeadb_link" target="blank">Cristal instable de glace</a>, reparler à Gerolt pour améliorer votre arme pagos.</p>
+					<p>Une dernière fois, parler à Gerolt en possession de 5 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/b68db73a0e5/" class="eorzeadb_link" target="blank">Glaces de Louhi</a> pour terminer cette phase de votre arme.</p>
+				</div>
+				<div class="imgRelic50">
+					<table>
+						<tr>
+							<td>
+								<button type="button" onclick="arme('paladin',70,2)"><img src="../image/job_icons/01_TANK/Job/Paladin.png"></button>
+								<button type="button" onclick="arme('guerrier',70,2)"><img src="../image/job_icons/01_TANK/Job/Warrior.png"></button>
+								<button type="button" onclick="arme('chevalier_noir',70,2)"><img src="../image/job_icons/01_TANK/Job/DarkKnight.png"></button>
+								<button type="button" onclick="arme('mage_blanc',70,2)"><img src="../image/job_icons/02_HEALER/Job/WhiteMage.png"></button>
+								<button type="button" onclick="arme('érudit',70,2)"><img src="../image/job_icons/02_HEALER/Job/Scholar.png"></button>
+								<button type="button" onclick="arme('astromancien',70,2)"><img src="../image/job_icons/02_HEALER/Job/Astrologian.png"></button>
+								<button type="button" onclick="arme('moine',70,2)"><img src="../image/job_icons/03_DPS/Job/Monk.png"></button>
+								<button type="button" onclick="arme('dragon',70,2)"><img src="../image/job_icons/03_DPS/Job/Dragoon.png"></button>
+								<button type="button" onclick="arme('ninja',70,2)"><img src="../image/job_icons/03_DPS/Job/Ninja.png"></button>
+								<button type="button" onclick="arme('samourai',70,2)"><img src="../image/job_icons/03_DPS/Job/Samurai.png"></button>
+								<button type="button" onclick="arme('barde',70,2)"><img src="../image/job_icons/03_DPS/Job/Bard.png"></button>
+								<button type="button" onclick="arme('machiniste',70,2)"><img src="../image/job_icons/03_DPS/Job/Machinist.png"></button>
+								<button type="button" onclick="arme('mage_noir',70,2)"><img src="../image/job_icons/03_DPS/Job/BlackMage.png"></button>
+								<button type="button" onclick="arme('invocateur',70,2)"><img src="../image/job_icons/03_DPS/Job/Summoner.png"></button>
+								<button type="button" onclick="arme('mage_rouge',70,2)"><img src="../image/job_icons/03_DPS/Job/RedMage.png"></button>
+							</td>
+						</tr>
+						<tr>
+							<td id="imgRelic2" class="imgRelic"><img src="../image/image_reliques/paladin/70(2).png"></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div id="etape3" style="display: none;">
+			</div>
+			<div id="etape4" style="display: none;">
+			</div>
 		</div>
+		<footer>
+			<div id="baniere2" class="footer_70">
+				<div class="precedent">
+					<button type="button" onclick="precedent(4)" disabled id="btnPrecedent"><img src="../image/target_back.png"></button>
+				</div>
+				<div class="haut">
+					<a href="#top"><button type="button"><img src="../image/jump.png"></button></a>
+				</div>
+				<div class="suivant">
+					<button type="button" onclick="suivant(4)" id="btnSuivant"><img src="../image/target_forward.png"></button>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
