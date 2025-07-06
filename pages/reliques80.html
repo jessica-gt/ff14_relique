@@ -19,6 +19,7 @@
 					<li><a href="reliques70.html">arme relique 70</a></li>
 					<li><a href=""><p><img src="../image/signs.png" width="30%"></p><p>arme relique 80</p></a></li>
 					<li><a href="reliques90.html">arme relique 90</a></li>
+					<li><a href="reliques100.html">arme relique 100</a></li>
 				</ul>
 			</div>
 			<div class="image5">
@@ -26,6 +27,168 @@
 		</div>
 		<div class="accueil">
 			<h1>Saga des armes de la résistance</h1>
+			<p>Tableau récapitulatif des étapes de l'arme relique :</p>
+			<p>(Cliquez sur une étape pour l'afficher)</p>
+			<table class="etapes_relique">
+				<tr class="ligne_titre_80">
+					<td><button id="bouton0" class="etapes_relique_80" onclick="affichage(0,6)" disabled><img src="../image/housing.png"></button></td>
+					<td><button id="bouton1" class="etapes_relique_80" onclick="affichage(1,6)">1-arme de la résistance</button></td>
+					<td><button id="bouton2" class="etapes_relique_80" onclick="affichage(2,6)">2-arme de la résistance amélioré</button></td>
+					<td><button id="bouton3" class="etapes_relique_80" onclick="affichage(3,6)">3-arme In Memoriam</button></td>
+					<td><button id="bouton4" class="etapes_relique_80" onclick="affichage(4,6)">4-arme du verdict des juges</button></td>
+					<td><button id="bouton5" class="etapes_relique_80" onclick="affichage(5,6)">5-arme du verdict des juges amélioré</button></td>
+					<td><button id="bouton6" class="etapes_relique_80" onclick="affichage(6,6)">6-arme de Gunnhildr</button></td>
+				</tr>
+				<tr class="memo_relique_80">
+					<td>Mémoquartz Poétiques nécessaire</td>
+					<td>1 000</td>
+					<td>0</td>
+					<td>0</td>
+					<td>0</td>
+					<td>0</td>
+					<td>0</td>
+				</tr>
+				<tr class="memo_relique_80">
+					<td>Ressources de quête nécessaire</td>
+					<td>0</td>
+					<td>20 x 3</td>
+					<td>6</td>
+					<td>15</td>
+					<td>15</td>
+					<td>15</td>
+				</tr>
+			</table>
+			<p>L'arme relique 80 vous demandera un total de 1 000 Mémoquartz Poétiques et un farm intensif d'aléas dans les zones heavensward ou d'affrontement dans l'instance de Bozja.</p>
+			<div class="line"></div>
+			<div class="quetes_80" id="etape0" style="display: block;">
+			<p>Pour avoir accès aux armes reliques 80, il faudra préalablement avoir fini la suite de quêtes des raids en alliance 70, le raid du retour à Ivalice:</p>
+			<p class="quetes"><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/14847bc8932/" class="eorzeadb_link" target="blank">Les artistes maudits</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/49ef739c2b4/" class="eorzeadb_link" target="blank">La Cité royale de Rabanastre</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/fce5c04f86e/" class="eorzeadb_link" target="blank">Reptiles et boules de poils</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/66d94a94d20/" class="eorzeadb_link" target="blank">Le phare de tous les mystères</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/e9499b663e4/" class="eorzeadb_link" target="blank">La lumière au bout du monde</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/048e1f242aa/" class="eorzeadb_link" target="blank">La résistance dalmasquienne</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/7bd9d4363d1/" class="eorzeadb_link" target="blank">Vestiges dans la jungle</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/4b5e7d8e71b/" class="eorzeadb_link" target="blank">L'ange du monastère</a></p>
+			<p>Pour toutes les armes reliques 80, il vous faudra faire la suite de quêtes des armes de Bozja tout en améliorant votre rang de front bozjien (s'il n'est pas assez haut):</p>
+			<p class="quetes"><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/6404990a3da/" class="eorzeadb_link" target="blank">La relique perdue (quête unique)</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/0cb41fcce8c/" class="eorzeadb_link" target="blank">Les lames de Gunnhildr et les fileurs de songes (quête unique)</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/66ddcfbca45/" class="eorzeadb_link" target="blank">Prélude à la catastrophe (quête unique)</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/b8f5286c6eb/" class="eorzeadb_link" target="blank">Une nouvelle lame pour Gunnhildr (quête unique)</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/4bd506e3dcb/" class="eorzeadb_link" target="blank">L'arsenal des résistants</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/20ecde94d22/" class="eorzeadb_link" target="blank">Opération Aire des aigles (quête unique)</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/65a6b7eec0a/" class="eorzeadb_link" target="blank">La forge avant la boisson (quête unique)</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/9673c789ba9/" class="eorzeadb_link" target="blank">Une arme à mémoire d'éléphant</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/f267d4d0aac/" class="eorzeadb_link" target="blank">Et un soupçon de sauvagerie</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/3a701be315d/" class="eorzeadb_link" target="blank">À la lueur de l'épée sacrée (quête unique)</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/39fc3e4a86a/" class="eorzeadb_link" target="blank">Les amas de la métamorphose</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/17861306223/" class="eorzeadb_link" target="blank">Une grosse bouboule bien utile (quête unique)</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/f49e076d1e1/" class="eorzeadb_link" target="blank">Armes à la carte</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/2a048a18b6a/" class="eorzeadb_link" target="blank">Un vieux rêve de Bozjien (quête unique)</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/a3323888517/" class="eorzeadb_link" target="blank">Les concentrés de la résistance (quête unique)</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/bc4087254f5/" class="eorzeadb_link" target="blank">Les alliages de la résistance (quête unique)</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/f342e232a32/" class="eorzeadb_link" target="blank">Les parchemins de la résistance (quête unique)</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/726a756ddd0/" class="eorzeadb_link" target="blank">Entourloupe à la loupe (quête unique)</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/a0f4270b30f/" class="eorzeadb_link" target="blank">Résiste, prouve que tu existes</a></p>
+			<p class="quetes">ATTENTION: n'oubliez pas de monter votre rang au front bozjien et de faire les quêtes à l'intérieur de celui-ci pour pouvoir débloquer les quêtes d'arme relique.</p>
+			<p class="quetes"></p>
+			<div class="line"></div>
+			</div>
+			<div id="etape1" style="display: none;">
+				<h1>Etape 1 : Arme de la résistance</h1>
+				<div class="lieux">
+					<p>PNJ: <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/0f3e321c0c7/" class="eorzeadb_link" target="blank">Zlatan</a></p>
+					<p>Objets necéssaire: 4 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/b54fd199c84/" class="eorzeadb_link" target="blank">Écailles ombrales de Thavnair</a></p>
+				</div>
+				<div class="description">
+					<p>Parler à <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/0f3e321c0c7/" class="eorzeadb_link" target="blank">Zlatan</a> qui vous demandera 4 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/b54fd199c84/" class="eorzeadb_link" target="blank">Écailles ombrales de Thavnair</a> que vous pouvez acheter chez n'importe quel commise de Rowena pour 250 poétique l'unité.</p>
+				</div>
+				<div class="imgRelic50">
+					<table>
+						<tr>
+							<td>
+								<button type="button" onclick="arme('paladin',80,1)"><img src="../image/job_icons/01_TANK/Job/Paladin.png"></button>
+								<button type="button" onclick="arme('guerrier',80,1)"><img src="../image/job_icons/01_TANK/Job/Warrior.png"></button>
+								<button type="button" onclick="arme('chevalier_noir',80,1)"><img src="../image/job_icons/01_TANK/Job/DarkKnight.png"></button>
+								<button type="button" onclick="arme('pistosabreur',80,1)"><img src="../image/job_icons/01_TANK/Job/Gunbreaker.png"></button>
+								<button type="button" onclick="arme('mage_blanc',80,1)"><img src="../image/job_icons/02_HEALER/Job/WhiteMage.png"></button>
+								<button type="button" onclick="arme('érudit',80,1)"><img src="../image/job_icons/02_HEALER/Job/Scholar.png"></button>
+								<button type="button" onclick="arme('astromancien',80,1)"><img src="../image/job_icons/02_HEALER/Job/Astrologian.png"></button>
+								<button type="button" onclick="arme('moine',80,1)"><img src="../image/job_icons/03_DPS/Job/Monk.png"></button>
+								<button type="button" onclick="arme('dragon',80,1)"><img src="../image/job_icons/03_DPS/Job/Dragoon.png"></button>
+								<button type="button" onclick="arme('ninja',80,1)"><img src="../image/job_icons/03_DPS/Job/Ninja.png"></button>
+								<button type="button" onclick="arme('samourai',80,1)"><img src="../image/job_icons/03_DPS/Job/Samurai.png"></button>
+								<button type="button" onclick="arme('barde',80,1)"><img src="../image/job_icons/03_DPS/Job/Bard.png"></button>
+								<button type="button" onclick="arme('machiniste',80,1)"><img src="../image/job_icons/03_DPS/Job/Machinist.png"></button>
+								<button type="button" onclick="arme('danseur',80,1)"><img src="../image/job_icons/03_DPS/Job/Dancer.png"></button>
+								<button type="button" onclick="arme('mage_noir',80,1)"><img src="../image/job_icons/03_DPS/Job/BlackMage.png"></button>
+								<button type="button" onclick="arme('invocateur',80,1)"><img src="../image/job_icons/03_DPS/Job/Summoner.png"></button>
+								<button type="button" onclick="arme('mage_rouge',80,1)"><img src="../image/job_icons/03_DPS/Job/RedMage.png"></button>
+							</td>
+						</tr>
+						<tr>
+							<td id="imgRelic1" class="imgRelic"><img src="../image/image_reliques/paladin/80(1).png"></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div id="etape2" style="display: none;">
+				<h1>Etape 2 : Arme de la résistance amélioré</h1>
+				<div class="lieux">
+					<p>PNJ: <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/0f3e321c0c7/" class="eorzeadb_link" target="blank">Zlatan</a></p>
+					<p>Objets necéssaire: 20 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/399e9fffafd/" class="eorzeadb_link" target="blank">Amas mémoriel de tourment</a>, 20 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/17edd494600/" class="eorzeadb_link" target="blank">Amas mémoriel de peine</a> et 20 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/1b84f1f098a/" class="eorzeadb_link" target="blank">Amas mémoriel de terreur</a></p>
+				</div>
+				<div class="description">
+					<p>Parler à <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/0f3e321c0c7/" class="eorzeadb_link" target="blank">Zlatan</a> qui vous demandera 20 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/399e9fffafd/" class="eorzeadb_link" target="blank">Amas mémoriel de tourment</a>, 20 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/17edd494600/" class="eorzeadb_link" target="blank">Amas mémoriel de peine</a> et 20 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/1b84f1f098a/" class="eorzeadb_link" target="blank">Amas mémoriel de terreur</a>.</p>
+					<p>Vous pourrez récupérer les différents Amas soit en faisant des aléas dans les zones d'heavensward, soit un faisant des confrontations dans les différentes zone de Bozja comme sur le tableau ci-dessous :</p>
+					<table class="Atma">
+						<tr class="ligne_titre_50">
+							<td>Objet de quête</td>
+							<td>Aléas d'Eorzéa</td>
+							<td>Zone de Bozja</td>
+						</tr>
+						<tr class="memo_relique_50">
+							<td><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/399e9fffafd/" class="eorzeadb_link" target="blank">Amas mémoriel de tourment</a></td>
+							<td>Hautes terres du Coerthas occidental / Écume des cieux d’Abalathia</td>
+							<td>Zone 1</td>
+						</tr>
+						<tr class="memo_relique_50">
+							<td><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/17edd494600/" class="eorzeadb_link" target="blank">Amas mémoriel de peine</a></td>
+							<td>Avant pays Dravanien / Écume des cieux de Dravania</td>
+							<td>Zone 2</td>
+						</tr>
+						<tr class="memo_relique_50">
+							<td><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/1b84f1f098a/" class="eorzeadb_link" target="blank">Amas mémoriel de terreur</a></td>
+							<td> Arrière pays Dravanien / Azys Lla</td>
+							<td>Zone 3</td>
+						</tr>
+					</table>
+				</div>
+				<div class="imgRelic50">
+					<table>
+						<tr>
+							<td>
+								<button type="button" onclick="arme('paladin',80,1)"><img src="../image/job_icons/01_TANK/Job/Paladin.png"></button>
+								<button type="button" onclick="arme('guerrier',80,1)"><img src="../image/job_icons/01_TANK/Job/Warrior.png"></button>
+								<button type="button" onclick="arme('chevalier_noir',80,1)"><img src="../image/job_icons/01_TANK/Job/DarkKnight.png"></button>
+								<button type="button" onclick="arme('pistosabreur',80,1)"><img src="../image/job_icons/01_TANK/Job/Gunbreaker.png"></button>
+								<button type="button" onclick="arme('mage_blanc',80,1)"><img src="../image/job_icons/02_HEALER/Job/WhiteMage.png"></button>
+								<button type="button" onclick="arme('érudit',80,1)"><img src="../image/job_icons/02_HEALER/Job/Scholar.png"></button>
+								<button type="button" onclick="arme('astromancien',80,1)"><img src="../image/job_icons/02_HEALER/Job/Astrologian.png"></button>
+								<button type="button" onclick="arme('moine',80,1)"><img src="../image/job_icons/03_DPS/Job/Monk.png"></button>
+								<button type="button" onclick="arme('dragon',80,1)"><img src="../image/job_icons/03_DPS/Job/Dragoon.png"></button>
+								<button type="button" onclick="arme('ninja',80,1)"><img src="../image/job_icons/03_DPS/Job/Ninja.png"></button>
+								<button type="button" onclick="arme('samourai',80,1)"><img src="../image/job_icons/03_DPS/Job/Samurai.png"></button>
+								<button type="button" onclick="arme('barde',80,1)"><img src="../image/job_icons/03_DPS/Job/Bard.png"></button>
+								<button type="button" onclick="arme('machiniste',80,1)"><img src="../image/job_icons/03_DPS/Job/Machinist.png"></button>
+								<button type="button" onclick="arme('danseur',80,1)"><img src="../image/job_icons/03_DPS/Job/Dancer.png"></button>
+								<button type="button" onclick="arme('mage_noir',80,1)"><img src="../image/job_icons/03_DPS/Job/BlackMage.png"></button>
+								<button type="button" onclick="arme('invocateur',80,1)"><img src="../image/job_icons/03_DPS/Job/Summoner.png"></button>
+								<button type="button" onclick="arme('mage_rouge',80,1)"><img src="../image/job_icons/03_DPS/Job/RedMage.png"></button>
+							</td>
+						</tr>
+						<tr>
+							<td id="imgRelic1" class="imgRelic"><img src="../image/image_reliques/paladin/80(1).png"></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div id="etape3" style="display: none;">
+			</div>
+			<div id="etape4" style="display: none;">
+			</div>
+			<div id="etape5" style="display: none;">
+			</div>
+			<div id="etape6" style="display: none;">
+			</div>
 		</div>
+		<footer>
+			<div id="baniere2" class="footer_80">
+				<div class="precedent">
+					<button type="button" onclick="precedent(6)" disabled id="btnPrecedent"><img src="../image/target_back.png"></button>
+				</div>
+				<div class="haut">
+					<a href="#top"><button type="button"><img src="../image/jump.png"></button></a>
+				</div>
+				<div class="suivant">
+					<button type="button" onclick="suivant(6)" id="btnSuivant"><img src="../image/target_forward.png"></button>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>

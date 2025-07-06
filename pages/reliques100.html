@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FFXIV reliques</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<script type="text/javascript" src="index.js"></script>
+		<script src="https://lds-img.finalfantasyxiv.com/pc/global/js/eorzeadb/loader.js?v3"></script>
+	</head>
+	<body id="container">
+		<div class="baniere">
+			<div class="image7">
+			</div>
+			<div class="menu" id="menu7">
+				<ul>
+					<li><a href="../index.html">accueil</a></li>
+					<li><a href="reliques50.html">arme relique 50</a></li>
+					<li><a href="reliques60.html">arme relique 60</a></li>
+					<li><a href="reliques70.html">arme relique 70</a></li>
+					<li><a href="reliques80.html">arme relique 80</a></li>
+					<li><a href="reliques90.html">arme relique 90</a></li>
+					<li><a href=""><p><img src="../image/signs.png" width="30%"></p><p>arme relique 100</p></a></li>
+				</ul>
+			</div>
+			<div class="image7">
+			</div>
+		</div>
+		<div class="accueil">
+			<h1>Saga des armes Fantômes</h1>
+			<p>Tableau récapitulatif des étapes de l'arme relique :</p>
+			<p>(Cliquez sur une étape pour l'afficher)</p>
+			<table class="etapes_relique">
+				<tr class="ligne_titre_100">
+					<td><button id="bouton0" class="etapes_relique_100" onclick="affichage(0,2)" disabled><img src="../image/housing.png"></button></td>
+					<td><button id="bouton1" class="etapes_relique_100" onclick="affichage(1,2)">1-arme Penumbra</button></td>
+					<td><button id="bouton2" class="etapes_relique_100" onclick="affichage(2,2)">2-arme ???</button></td>
+				</tr>
+				<tr class="memo_relique_100">
+					<td>Mémoquartz héliologique nécessaire</td>
+					<td>1 500</td>
+					<td>???</td>
+				</tr>
+				<tr class="memo_relique_100">
+					<td>Sceaux de Grande Compagnie nécessaire</td>
+					<td>0</td>
+					<td>???</td>
+				</tr>
+				<tr class="memo_relique_100">
+					<td>Gils nécessaire</td>
+					<td>0</td>
+					<td>???</td>
+				</tr>
+			</table>
+			<p>L'arme relique 100 vous demandera un total de 1 500 Mémoquartz Héliologiques.(pour le moment)</p>
+			<div class="line"></div>
+			<div class="quetes_100" id="etape0" style="display: block;">
+			<p>Pour dévérouiller la première arme relique 100, il vous faudra faire la suite de quêtes des armes fantômes ainsi qu'avancer dans les quêtes de l'île de lunule:</p>
+			<p class="quetes"><a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/bd2f77c9a2a/" class="eorzeadb_link" target="_blank">La dernière aventure de Ketenramm (quête unique)</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/96c1e702d66/" class="eorzeadb_link" target="_blank">La ville fantôme (quête unique)</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/c6fac92f8be/" class="eorzeadb_link" target="_blank">Un familier peu familier (quête unique)</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/92bb9b6ea02/" class="eorzeadb_link" target="_blank">Un forgeron fantomatique (quête unique)</a> -> <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/quest/070e50bf255/" class="eorzeadb_link" target="_blank">L'arsenal fantôme (quête unique)</a></p>
+			<p class="quetes"></p>
+			<div class="line"></div>
+			</div>
+			<div id="etape1" style="display: none;">
+				<h1>Etape 1 : Arme Penumbra</h1>
+				<div class="lieux">
+					<p>PNJ: <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/3f4cd22442e/" class="eorzeadb_link" target="_blank">Dodokkuli</a>, <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/97038afe874/" class="eorzeadb_link" target="_blank">Gerolt</a>, <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/shop/a93b22faceb/" class="eorzeadb_link" target="_blank">Ermina</a></p>
+					<p>Objets necéssaire: 3 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/584914c9397/" class="eorzeadb_link" target="_blank">Lunulite</a></p>
+				</div>
+				<div class="description">
+					<p>/!\ Pour la première arme relique : vous devrez aller chercher 18 demi-âtmas qui ont une chance de drop beaucoup trop basse (20% sur les confrontations critiques de lunule ou 5% dans les aléas). il vous faudra 3 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/d739fdf9ca3/" class="eorzeadb_link" target="_blank">Demi-âtma ambre</a>, 3 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/d144c10d779/" class="eorzeadb_link" target="_blank">Demi-âtma saphir</a>, 3 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/7e76996af8e/" class="eorzeadb_link" target="_blank">Demi-âtma turquoise</a>, 3 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/aeba242828b/" class="eorzeadb_link" target="_blank">Demi-âtma émeraude</a>, 3 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/1b4aefffe84/" class="eorzeadb_link" target="_blank">Demi-âtma corail</a> et 3 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/49c21eeb398/" class="eorzeadb_link" target="_blank">Demi-âtma améthyste</a>.
+					</p>
+					<table class="Atma">
+						<tr class="ligne_titre_50">
+							<td><img id="carte" src="../image/carte âtma.png"></td>
+						</tr>
+					</table>
+					<p>Une fois en possession de vos 18 demi-âtmas, retourner discuter avec <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/97038afe874/" class="eorzeadb_link" target="_blank">Gerolt</a>.
+					</p>
+					<p>/!\ Pour TOUTES les armes reliques : en possesion de vos 1 500 Memoquartz, acheter vos 3 <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/item/584914c9397/" class="eorzeadb_link" target="_blank">Lunulite</a> à <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/shop/a93b22faceb/" class="eorzeadb_link" target="_blank">Ermina</a>. Allez ensuite les échanger avec <a href="https://fr.finalfantasyxiv.com/lodestone/playguide/db/npc/npc/3f4cd22442e/" class="eorzeadb_link" target="_blank">Dodokkuli</a> pour récupérer l'arme de votre choix.
+					</p>
+				</div>
+				<div class="imgRelic50">
+					<table>
+						<tr>
+							<td>
+								<button type="button" onclick="arme('paladin',100,1)"><img src="../image/job_icons/01_TANK/Job/Paladin.png"></button>
+								<button type="button" onclick="arme('guerrier',100,1)"><img src="../image/job_icons/01_TANK/Job/Warrior.png"></button>
+								<button type="button" onclick="arme('chevalier_noir',100,1)"><img src="../image/job_icons/01_TANK/Job/DarkKnight.png"></button>
+								<button type="button" onclick="arme('pistosabreur',100,1)"><img src="../image/job_icons/01_TANK/Job/Gunbreaker.png"></button>
+								<button type="button" onclick="arme('mage_blanc',100,1)"><img src="../image/job_icons/02_HEALER/Job/WhiteMage.png"></button>
+								<button type="button" onclick="arme('érudit',100,1)"><img src="../image/job_icons/02_HEALER/Job/Scholar.png"></button>
+								<button type="button" onclick="arme('astromancien',100,1)"><img src="../image/job_icons/02_HEALER/Job/Astrologian.png"></button>
+								<button type="button" onclick="arme('sage',100,1)"><img src="../image/job_icons/02_HEALER/Job/Sage.png"></button>
+								<button type="button" onclick="arme('moine',100,1)"><img src="../image/job_icons/03_DPS/Job/Monk.png"></button>
+								<button type="button" onclick="arme('dragon',100,1)"><img src="../image/job_icons/03_DPS/Job/Dragoon.png"></button>
+								<button type="button" onclick="arme('ninja',100,1)"><img src="../image/job_icons/03_DPS/Job/Ninja.png"></button>
+								<button type="button" onclick="arme('samourai',100,1)"><img src="../image/job_icons/03_DPS/Job/Samurai.png"></button>
+								<button type="button" onclick="arme('faucheur',100,1)"><img src="../image/job_icons/03_DPS/Job/Reaper.png"></button>
+								<button type="button" onclick="arme('viper',100,1)"><img src="../image/job_icons/03_DPS/Job/Viper.png"></button>
+								<button type="button" onclick="arme('barde',100,1)"><img src="../image/job_icons/03_DPS/Job/Bard.png"></button>
+								<button type="button" onclick="arme('machiniste',100,1)"><img src="../image/job_icons/03_DPS/Job/Machinist.png"></button>
+								<button type="button" onclick="arme('danseur',100,1)"><img src="../image/job_icons/03_DPS/Job/Dancer.png"></button>
+								<button type="button" onclick="arme('mage_noir',100,1)"><img src="../image/job_icons/03_DPS/Job/BlackMage.png"></button>
+								<button type="button" onclick="arme('invocateur',100,1)"><img src="../image/job_icons/03_DPS/Job/Summoner.png"></button>
+								<button type="button" onclick="arme('mage_rouge',100,1)"><img src="../image/job_icons/03_DPS/Job/RedMage.png"></button>
+								<button type="button" onclick="arme('pictomancien',100,1)"><img src="../image/job_icons/03_DPS/Job/Pictomancer.png"></button>
+							</td>
+						</tr>
+						<tr>
+							<td id="imgRelic1" class="imgRelic"><img src="../image/image_reliques/paladin/100(1).png"></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div id="etape2" style="display: none;">
+				<h1>Etape 2 : Arme ???</h1>
+				<div class="lieux">
+					<p>PNJ: ???</p>
+					<p>Objets necéssaire: ???</p>
+				</div>
+				<div class="description">
+					<p>Veuillez attendre la maj</p>
+				</div>
+				<div class="imgRelic50">
+					<table>
+						<tr>
+							<td>
+								<button type="button" onclick="arme('paladin',100,2)"><img src="../image/job_icons/01_TANK/Job/Paladin.png"></button>
+								<button type="button" onclick="arme('guerrier',100,2)"><img src="../image/job_icons/01_TANK/Job/Warrior.png"></button>
+								<button type="button" onclick="arme('chevalier_noir',100,2)"><img src="../image/job_icons/01_TANK/Job/DarkKnight.png"></button>
+								<button type="button" onclick="arme('pistosabreur',100,2)"><img src="../image/job_icons/01_TANK/Job/Gunbreaker.png"></button>
+								<button type="button" onclick="arme('mage_blanc',100,2)"><img src="../image/job_icons/02_HEALER/Job/WhiteMage.png"></button>
+								<button type="button" onclick="arme('érudit',100,2)"><img src="../image/job_icons/02_HEALER/Job/Scholar.png"></button>
+								<button type="button" onclick="arme('astromancien',100,2)"><img src="../image/job_icons/02_HEALER/Job/Astrologian.png"></button>
+								<button type="button" onclick="arme('sage',100,2)"><img src="../image/job_icons/02_HEALER/Job/Sage.png"></button>
+								<button type="button" onclick="arme('moine',100,2)"><img src="../image/job_icons/03_DPS/Job/Monk.png"></button>
+								<button type="button" onclick="arme('dragon',100,2)"><img src="../image/job_icons/03_DPS/Job/Dragoon.png"></button>
+								<button type="button" onclick="arme('ninja',100,2)"><img src="../image/job_icons/03_DPS/Job/Ninja.png"></button>
+								<button type="button" onclick="arme('samourai',100,2)"><img src="../image/job_icons/03_DPS/Job/Samurai.png"></button>
+								<button type="button" onclick="arme('faucheur',100,2)"><img src="../image/job_icons/03_DPS/Job/Reaper.png"></button>
+								<button type="button" onclick="arme('viper',100,1)"><img src="../image/job_icons/03_DPS/Job/Viper.png"></button>
+								<button type="button" onclick="arme('barde',100,2)"><img src="../image/job_icons/03_DPS/Job/Bard.png"></button>
+								<button type="button" onclick="arme('machiniste',100,2)"><img src="../image/job_icons/03_DPS/Job/Machinist.png"></button>
+								<button type="button" onclick="arme('danseur',100,2)"><img src="../image/job_icons/03_DPS/Job/Dancer.png"></button>
+								<button type="button" onclick="arme('mage_noir',100,2)"><img src="../image/job_icons/03_DPS/Job/BlackMage.png"></button>
+								<button type="button" onclick="arme('invocateur',100,2)"><img src="../image/job_icons/03_DPS/Job/Summoner.png"></button>
+								<button type="button" onclick="arme('mage_rouge',100,2)"><img src="../image/job_icons/03_DPS/Job/RedMage.png"></button>
+								<button type="button" onclick="arme('pictomancien',100,1)"><img src="../image/job_icons/03_DPS/Job/Pictomancer.png"></button>
+							</td>
+						</tr>
+						<tr>
+							<td id="imgRelic2" class="imgRelic"><img src="../image/image_reliques/paladin/100(2).png"></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div id="baniere2" class="footer_100">
+				<div class="precedent">
+					<button type="button" onclick="precedent(2)" disabled id="btnPrecedent"><img src="../image/target_back.png"></button>
+				</div>
+				<div class="haut">
+					<a href="#top"><button type="button"><img src="../image/jump.png"></button></a>
+				</div>
+				<div class="suivant">
+					<button type="button" onclick="suivant(2)" id="btnSuivant"><img src="../image/target_forward.png"></button>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

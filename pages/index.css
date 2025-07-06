@@ -61,7 +61,7 @@ h1{
 
 																					/* image baniere des différents onglets */
 .image1 {
-	background: center / cover no-repeat url('../image/baniere_endwalker.jpg');
+	background: center / cover no-repeat url('../image/baniere_ff.jpg');
 	width: 500px;
 }
 
@@ -90,6 +90,11 @@ h1{
 	width: 500px;
 }
 
+.image7 {
+	background: center / cover no-repeat url('../image/baniere_dawntrail.jpg');
+	width: 500px;
+}
+
 .menu p {
 	padding: 0;
 	margin: 1%;
@@ -97,15 +102,15 @@ h1{
 
 																									/* menu accueil */
 #menu1 {
-	background-color: rgb(28, 32, 61);
+	background-color: rgb(253, 253, 253);
 }
 
 #menu1 a {
-	color: rgb(255, 216, 160);
+	color: rgb(51, 48, 44);
 }
 
 #menu1 a:hover {
-	color: rgb(168, 131, 122);
+	color: rgb(166, 62, 79);
 }
 
 																									/* menu arme 50 */
@@ -171,6 +176,18 @@ h1{
 
 #menu6 a:hover {
 	color: rgb(126, 244, 254);
+}
+																									/* menu arme 100 */
+#menu7 a {
+	color: rgb(124, 170, 220);
+}
+
+#menu7 {
+	background-color: rgb(22, 24, 49);
+}
+
+#menu7 a:hover {
+	color: rgb(249, 136, 202);
 }
 
 																									/* menu général */
@@ -410,6 +427,45 @@ tr img {
     color: rgb(241, 227, 218);
 }
 
+/* relique 100 */
+
+.etapes_relique_100 {
+	color: rgb(249, 136, 202);
+}
+
+.etapes_relique_100:hover {
+	color: rgb(124, 170, 220);
+}
+
+.etapes_relique_100:active {
+	color: rgb(22, 24, 49);
+}
+
+.etapes_relique .ligne_titre_100 td:active {
+	border: outset rgb(249, 136, 202);
+    background: rgb(249, 136, 202);
+}
+
+.memo_relique_100 td {
+	border: outset rgb(249, 136, 202);
+    background: rgb(249, 136, 202);
+    color: rgb(22, 24, 49);
+}
+
+:has(>.etapes_relique_100:disabled) {
+	background: rgb(249, 136, 202);
+}
+
+.etapes_relique_100:disabled {
+	color: rgb(22, 24, 49);
+}
+
+.ligne_titre_100 td{
+	border: inset rgb(249, 136, 202);
+	background-color: rgb(22, 24, 49);
+    color: rgb(249, 136, 202);
+}
+
 																					/* ligne sous le tableau des arme relique */
 .line {
 	border: dashed 1px;
@@ -442,6 +498,11 @@ tr img {
 .quetes_90 p a:hover {
 	color: rgb(126, 244, 254);
 	background-color: rgb(23, 22, 40);
+}
+
+.quetes_100 p a:hover {
+	color: rgb(249, 136, 202);
+	background-color: rgb(22, 24, 49);
 }
 
 																							/* localisation et objets */
@@ -491,6 +552,10 @@ tr img {
 	border: none;
 	width: 5vw;
 	background-color: #FEEDD2;
+}
+
+#carte {
+	width: 50vw;
 }
 
 																									/* image des armes reliques */
@@ -564,4 +629,8 @@ tr img {
 
 .footer_90 {
 	background-color: rgb(23, 22, 40);
+}
+
+.footer_100 {
+	background-color: rgb(22, 24, 49);
 }
